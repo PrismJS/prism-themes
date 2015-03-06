@@ -22,9 +22,9 @@ To use one of the themes, just include the theme's CSS file in your page. Exampl
 
 ## Available themes
 
-* <p>[__CB__](themes/prism-cb.css) (originally by [C. Bavota](https://bitbucket.org/cbavota))<br />
+* <p>[__CB__](themes/prism-cb.css) (originally by [C. Bavota](https://bitbucket.org/cbavota), adapted by [atelierbram](https://github.com/atelierbram))<br />
 [![CB](screenshots/prism-cb.png)](themes/prism-cb.css)</p>
 * <p>[__GHColors__](themes/prism-ghcolors.css) (by [aviaryan](https://github.com/aviaryan))<br />
 [![GHColors](screenshots/prism-ghcolors.png)](themes/prism-ghcolors.css)</p>
-* <p>[__Pojoaque__](themes/prism-pojoaque.css) (originally by [Jason Tate](http://web-cms-designs.com/ftopict-10-pojoaque-style-for-highlight-js-code-highlighter.html))<br />
+* <p>[__Pojoaque__](themes/prism-pojoaque.css) (originally by [Jason Tate](http://web-cms-designs.com/ftopict-10-pojoaque-style-for-highlight-js-code-highlighter.html), adapted by [atelierbram](https://github.com/atelierbram))<br />
 [![Pojoaque](screenshots/prism-pojoaque.png)](themes/prism-pojoaque.css)</p>
