@@ -7,7 +7,6 @@ Prism template by Bram de Haan (http://atelierbram.github.io/syntax-highlighting
 Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
 
 */
-/* line 28, ../sass/prism-base16-atelierdune.dark.scss */
 code[class*="language-"],
 pre[class*="language-"] {
   font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
@@ -29,19 +28,12 @@ pre[class*="language-"] {
   color: #a6a28c;
 }
 
-/* line 51, ../sass/prism-base16-atelierdune.dark.scss */
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
 code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
   text-shadow: none;
   background: #999580;
 }
 
-/* line 57, ../sass/prism-base16-atelierdune.dark.scss */
-pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
-code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
-  text-shadow: none;
-  background: #999580;
-}
 pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
 code[class*="language-"]::selection, code[class*="language-"] ::selection {
   text-shadow: none;
@@ -49,7 +41,6 @@ code[class*="language-"]::selection, code[class*="language-"] ::selection {
 }
 
 /* Code blocks */
-/* line 64, ../sass/prism-base16-atelierdune.dark.scss */
 pre[class*="language-"] {
   padding: 1em;
   margin: .5em 0;
@@ -57,13 +48,11 @@ pre[class*="language-"] {
 }
 
 /* Inline code */
-/* line 71, ../sass/prism-base16-atelierdune.dark.scss */
 :not(pre) > code[class*="language-"] {
   padding: .1em;
   border-radius: .3em;
 }
 
-/* line 76, ../sass/prism-base16-atelierdune.dark.scss */
 .token.comment,
 .token.prolog,
 .token.doctype,
@@ -71,17 +60,14 @@ pre[class*="language-"] {
   color: #7d7a68;
 }
 
-/* line 83, ../sass/prism-base16-atelierdune.dark.scss */
 .token.punctuation {
   color: #a6a28c;
 }
 
-/* line 87, ../sass/prism-base16-atelierdune.dark.scss */
 .namespace {
   opacity: .7;
 }
 
-/* line 91, ../sass/prism-base16-atelierdune.dark.scss */
 .token.null,
 .token.operator,
 .token.boolean,
@@ -89,32 +75,26 @@ pre[class*="language-"] {
   color: #b65611;
 }
 
-/* line 97, ../sass/prism-base16-atelierdune.dark.scss */
 .token.property {
   color: #cfb017;
 }
 
-/* line 100, ../sass/prism-base16-atelierdune.dark.scss */
 .token.tag {
   color: #6684e1;
 }
 
-/* line 103, ../sass/prism-base16-atelierdune.dark.scss */
 .token.string {
   color: #1fad83;
 }
 
-/* line 106, ../sass/prism-base16-atelierdune.dark.scss */
 .token.selector {
   color: #b854d4;
 }
 
-/* line 109, ../sass/prism-base16-atelierdune.dark.scss */
 .token.attr-name {
   color: #b65611;
 }
 
-/* line 112, ../sass/prism-base16-atelierdune.dark.scss */
 .token.entity,
 .token.url,
 .language-css .token.string,
@@ -122,7 +102,6 @@ pre[class*="language-"] {
   color: #1fad83;
 }
 
-/* line 119, ../sass/prism-base16-atelierdune.dark.scss */
 .token.attr-value,
 .token.keyword,
 .token.control,
@@ -131,31 +110,26 @@ pre[class*="language-"] {
   color: #60ac39;
 }
 
-/* line 127, ../sass/prism-base16-atelierdune.dark.scss */
 .token.statement,
 .token.regex,
 .token.atrule {
   color: #1fad83;
 }
 
-/* line 133, ../sass/prism-base16-atelierdune.dark.scss */
 .token.placeholder,
 .token.variable {
   color: #6684e1;
 }
 
-/* line 138, ../sass/prism-base16-atelierdune.dark.scss */
 .token.important {
   color: #d73737;
   font-weight: bold;
 }
 
-/* line 143, ../sass/prism-base16-atelierdune.dark.scss */
 .token.entity {
   cursor: help;
 }
 
-/* line 147, ../sass/prism-base16-atelierdune.dark.scss */
 pre > code.highlight {
   outline: 0.4em solid #d73737;
   outline-offset: .4em;
