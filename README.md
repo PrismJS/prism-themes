@@ -28,3 +28,5 @@ To use one of the themes, just include the theme's CSS file in your page. Exampl
 [![GHColors](screenshots/prism-ghcolors.png)](themes/prism-ghcolors.css)</p>
 * <p>[__Pojoaque__](themes/prism-pojoaque.css) (originally by [Jason Tate](http://web-cms-designs.com/ftopict-10-pojoaque-style-for-highlight-js-code-highlighter.html), adapted by [atelierbram](https://github.com/atelierbram))<br />
 [![Pojoaque](screenshots/prism-pojoaque.png)](themes/prism-pojoaque.css)</p>
+* <p>[__Xonokai__](themes/prism-xonokai.css) (originally by [Maxime Thirouin (MoOx)](https://github.com/MoOx), adapted by [atelierbram](https://github.com/atelierbram))<br />
+[![Xonokai](screenshots/prism-xonokai.png)](themes/prism-xonokai.css)</p>
