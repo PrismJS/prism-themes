@@ -120,9 +120,26 @@ pre[class*="language-"] {
   color: #516aec;
 }
 
+.token.deleted {
+  text-decoration: line-through;
+}
+
+.token.inserted {
+  border-bottom: 1px dotted #f7f3f7;
+  text-decoration: none;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+
 .token.important {
   color: #ca402b;
-  font-weight: bold;
 }
 
 .token.entity {
