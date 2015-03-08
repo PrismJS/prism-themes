@@ -64,11 +64,10 @@ pre[class*="language-"] {
   color: #ab9bab;
 }
 
-.namespace {
+.token.namespace {
   opacity: .7;
 }
 
-.token.null,
 .token.operator,
 .token.boolean,
 .token.number {
