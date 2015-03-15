@@ -75,7 +75,7 @@ pre[class*="language-"] {
 }
 
 .token.property {
-  color: #c3c322;
+  color: #98981b;
 }
 
 .token.tag {
@@ -125,7 +125,7 @@ pre[class*="language-"] {
 }
 
 .token.inserted {
-  border-bottom: 1px dotted #f0fff0;
+  border-bottom: 1px dotted #f4fbf4;
   text-decoration: none;
 }
 
