@@ -71,11 +71,11 @@ pre[class*="language-"] {
 .token.operator,
 .token.boolean,
 .token.number {
-  color: #b26624;
+  color: #c76b29;
 }
 
 .token.property {
-  color: #a38d29;
+  color: #c08b30;
 }
 
 .token.tag {
@@ -91,7 +91,7 @@ pre[class*="language-"] {
 }
 
 .token.attr-name {
-  color: #b26624;
+  color: #c76b29;
 }
 
 .token.entity,
@@ -106,7 +106,7 @@ pre[class*="language-"] {
 .token.control,
 .token.directive,
 .token.unit {
-  color: #a89648;
+  color: #ac9739;
 }
 
 .token.statement,
