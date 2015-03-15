@@ -24,7 +24,7 @@ pre[class*="language-"] {
   -moz-hyphens: none;
   -ms-hyphens: none;
   hyphens: none;
-  background: #f0fff0;
+  background: #f4fbf4;
   color: #5e6e5e;
 }
 
@@ -75,7 +75,7 @@ pre[class*="language-"] {
 }
 
 .token.property {
-  color: #c3c322;
+  color: #98981b;
 }
 
 .token.tag {
