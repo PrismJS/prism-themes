@@ -30,3 +30,5 @@ To use one of the themes, just include the theme's CSS file in your page. Exampl
 [![Pojoaque](screenshots/prism-pojoaque.png)](themes/prism-pojoaque.css)</p>
 * <p>[__Xonokai__](themes/prism-xonokai.css) (originally by [Maxime Thirouin (MoOx)](https://github.com/MoOx), adapted by [atelierbram](https://github.com/atelierbram))<br />
 [![Xonokai](screenshots/prism-xonokai.png)](themes/prism-xonokai.css)</p>
+<p>[__Harmonic16__](themes/prism-base16-harmonic16.dark.css) (by [Jannik Siebert](https://github.com/janniks))<br />
+[![Harmonic16](screenshots/prism-harmonic16-dark.png)](themes/prism-base16-harmonic16.dark.css)</p>
