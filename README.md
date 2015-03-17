@@ -30,3 +30,5 @@ To use one of the themes, just include the theme's CSS file in your page. Exampl
 [![Pojoaque](screenshots/prism-pojoaque.png)](themes/prism-pojoaque.css)</p>
 * <p>[__Xonokai__](themes/prism-xonokai.css) (originally by [Maxime Thirouin (MoOx)](https://github.com/MoOx), adapted by [atelierbram](https://github.com/atelierbram))<br />
 [![Xonokai](screenshots/prism-xonokai.png)](themes/prism-xonokai.css)</p>
+* <p>[__Summerfruit-light__](themes/prism-base16-summerfruit.light.css) (by [Christopher Corley](https://github.com/cscorley))<br />
+[![Summerfruit-light](screenshots/prism-summerfruit-light.png)](themes/prism-base16-summerfruit.light.css)</p>
