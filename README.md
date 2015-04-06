@@ -33,4 +33,4 @@ To use one of the themes, just include the theme's CSS file in your page. Exampl
 * <p>[__Ateliersulphurpool-light__](themes/prism-base16-ateliersulphurpool.light.css) by [Bram de Haan](https://github.com/atelierbram)<br />
 [![Ateliersulpherpool-light](screenshots/prism-ateliersulphurpool-light.png)](themes/prism-base16-ateliersulphurpool.light.css)</p>
 * <p>[__Ateliersavanna-light__](themes/prism-base16-ateliersavanna.light.css) by [Bram de Haan](https://github.com/atelierbram)<br />
-[![Ateliersulpherpool-light](screenshots/prism-ateliersavanna-light.png)](themes/prism-base16-ateliersavanna.light.css)</p>
+[![Ateliersavanna-light](screenshots/prism-ateliersavanna-light.png)](themes/prism-base16-ateliersavanna.light.css)</p>
