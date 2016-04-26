@@ -1,0 +1,19 @@
+{
+  "name": "prism-themes",
+  "version": "1.0.0",
+  "description": "Addtional themes for the Prism syntax highlighting library.",
+  "main": "README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prismjs/prism-themes.git"
+  },
+  "author": "Lea Verou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prismjs/prism-themes/issues"
+  },
+  "homepage": "https://github.com/prismjs/prism-themes#readme"
+}
