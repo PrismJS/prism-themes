@@ -36,3 +36,5 @@ To use one of the themes, just include the theme's CSS file in your page. Exampl
 [![Hopscotch](screenshots/prism-hopscotch.png)](themes/prism-hopscotch.css)</p>
 * <p>[__Atom Dark__](themes/prism-atom-dark.css) (by [gibsjose](https://github.com/gibsjose), based on [Atom Dark Syntax theme](https://github.com/atom/atom-dark-syntax))<br />
 [![Atom Dark](screenshots/prism-atom-dark.png)](themes/prism-atom-dark.css)</p>
+* <p>[__Duotone Light](themes/prism-duotone-light.css) (by [Simurai](https://github.com/simurai), based on [DuoTone Light Syntax theme](https://github.com/simurai/duotone-light-syntax))<br />
+[![__Duotone Light](screenshots/prism-duotone-light.png)](themes/prism-duotone-light.css)</p>
