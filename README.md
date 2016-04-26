@@ -37,4 +37,4 @@ To use one of the themes, just include the theme's CSS file in your page. Exampl
 * <p>[__Atom Dark__](themes/prism-atom-dark.css) (by [gibsjose](https://github.com/gibsjose), based on [Atom Dark Syntax theme](https://github.com/atom/atom-dark-syntax))<br />
 [![Atom Dark](screenshots/prism-atom-dark.png)](themes/prism-atom-dark.css)</p>
 * <p>[__Duotone Earth__](themes/prism-duotone-earth.css) (by [Simurai](https://github.com/simurai), based on [DuoTone Dark Earth Syntax theme for Atom](https://github.com/simurai/duotone-dark-earth-syntax))<br />
-[![__Duotone Earth](screenshots/prism-duotone-earth.png)](themes/prism-duotone-earth.css)</p>
+[![Duotone Earth](screenshots/prism-duotone-earth.png)](themes/prism-duotone-earth.css)</p>
