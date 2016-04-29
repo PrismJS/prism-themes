@@ -36,5 +36,15 @@ To use one of the themes, just include the theme's CSS file in your page. Exampl
 [![Hopscotch](screenshots/prism-hopscotch.png)](themes/prism-hopscotch.css)</p>
 * <p>[__Atom Dark__](themes/prism-atom-dark.css) (by [gibsjose](https://github.com/gibsjose), based on [Atom Dark Syntax theme](https://github.com/atom/atom-dark-syntax))<br />
 [![Atom Dark](screenshots/prism-atom-dark.png)](themes/prism-atom-dark.css)</p>
-* <p>[__Duotone Forest__](themes/prism-duotone-forest.css) (by [Simurai](https://github.com/simurai), based on [DuoTone Forest Dark Syntax theme for Atom](https://github.com/simurai/duotone-dark-forest-syntax))<br />
+* <p>[__Duotone Dark__](themes/prism-duotone-dark.css) (by [Simurai](https://github.com/simurai), based on [Duotone Dark Syntax theme for Atom](https://github.com/simurai/duotone-dark-syntax))<br />
+[![Duotone Dark](screenshots/prism-duotone-dark.png)](themes/prism-duotone-dark.css)</p>
+* <p>[__Duotone Sea__](themes/prism-duotone-sea.css) (by [Simurai](https://github.com/simurai), based on [DuoTone Dark Sea Syntax theme for Atom](https://github.com/simurai/duotone-dark-sea-syntax))<br />
+[![Duotone Sea](screenshots/prism-duotone-sea.png)](themes/prism-duotone-sea.css)</p>
+* <p>[__Duotone Space__](themes/prism-duotone-space.css) (by [Simurai](https://github.com/simurai), based on [DuoTone Dark Space Syntax theme for Atom](https://github.com/simurai/duotone-dark-space-syntax))<br />
+[![Duotone Space](screenshots/prism-duotone-space.png)](themes/prism-duotone-space.css)</p>
+* <p>[__Duotone Earth__](themes/prism-duotone-earth.css) (by [Simurai](https://github.com/simurai), based on [DuoTone Dark Earth Syntax theme for Atom](https://github.com/simurai/duotone-dark-earth-syntax))<br />
+[![Duotone Earth](screenshots/prism-duotone-earth.png)](themes/prism-duotone-earth.css)</p>
+* <p>[__Duotone Forest__](themes/prism-duotone-forest.css) (by [Simurai](https://github.com/simurai), based on [DuoTone Dark Forest Syntax theme for Atom](https://github.com/simurai/duotone-dark-forest-syntax))<br />
 [![Duotone Forest](screenshots/prism-duotone-forest.png)](themes/prism-duotone-forest.css)</p>
+* <p>[__Duotone Light__](themes/prism-duotone-light.css) (by [Simurai](https://github.com/simurai), based on [DuoTone Light Syntax theme](https://github.com/simurai/duotone-light-syntax))<br />
+[![Duotone Light](screenshots/prism-duotone-light.png)](themes/prism-duotone-light.css)</p>
