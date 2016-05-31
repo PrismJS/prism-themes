@@ -44,10 +44,6 @@ pre[class*="language-"] {
     background-color: white;
 }
 
-:not(pre) > code[class*="language-"],
-pre[class*="language-"] {
-}
-
 /* Inline code */
 :not(pre) > code[class*="language-"] {
     padding: .2em;
@@ -90,7 +86,9 @@ pre[class*="language-"] {
 .token.keyword,
 .token.attr-value,
 .language-autohotkey .token.selector,
-code[class*="language-css"] {
+.language-json .token.boolean, 
+.language-json .token.number, 
+code[class*="language-css"]{
     color: #0000ff;
 }
 
@@ -116,7 +114,8 @@ code[class*="language-css"] {
     font-style: italic;
 }
 
-.token.class-name {
+.token.class-name,
+.language-json .token.property {
     color: #2B91AF;
 }
 
