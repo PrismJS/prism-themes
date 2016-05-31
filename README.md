@@ -48,3 +48,5 @@ To use one of the themes, just include the theme's CSS file in your page. Exampl
 [![Duotone Forest](screenshots/prism-duotone-forest.png)](themes/prism-duotone-forest.css)</p>
 * <p>[__Duotone Light__](themes/prism-duotone-light.css) (by [Simurai](https://github.com/simurai), based on [DuoTone Light Syntax theme](https://github.com/simurai/duotone-light-syntax))<br />
 [![Duotone Light](screenshots/prism-duotone-light.png)](themes/prism-duotone-light.css)</p>
+* <p>[__VS__](themes/prism-vs.css) (by [andrewlock](https://github.com/andrewlock))<br />
+[![VS](screenshots/prism-vs.png)](themes/prism-vs.css)</p>
