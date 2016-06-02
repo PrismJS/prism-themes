@@ -30,6 +30,8 @@ To use one of the themes, just include the theme's CSS file in your page. Exampl
 [![Pojoaque](screenshots/prism-pojoaque.png)](themes/prism-pojoaque.css)</p>
 * <p>[__Xonokai__](themes/prism-xonokai.css) (originally by [Maxime Thirouin (MoOx)](https://github.com/MoOx), adapted by [atelierbram](https://github.com/atelierbram))<br />
 [![Xonokai](screenshots/prism-xonokai.png)](themes/prism-xonokai.css)</p>
+* <p>[__Ateliersulphurpool-dark__](themes/prism-base16-ateliersulphurpool.dark.css) by [Bram de Haan](https://github.com/atelierbram)<br />
+[![Ateliersulphurpool-dark](screenshots/prism-ateliersulphurpool-dark.png)](themes/prism-base16-ateliersulphurpool.dark.css)</p>
 * <p>[__Ateliersulphurpool-light__](themes/prism-base16-ateliersulphurpool.light.css) (by [Bram de Haan](https://github.com/atelierbram))<br />
 [![Ateliersulpherpool-light](screenshots/prism-ateliersulphurpool-light.png)](themes/prism-base16-ateliersulphurpool.light.css)</p>
 * <p>[__Hopscotch__](themes/prism-hopscotch.css) (by [Jan T. Sott](https://github.com/idleberg))<br />
