@@ -27,12 +27,12 @@ pre[class*="language-"] {
 
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
 code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
-    background: #0000ff;
+    background: #C1DEF1;
 }
 
 pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
 code[class*="language-"]::selection, code[class*="language-"] ::selection {
-    background: #0000ff;
+    background: #C1DEF1;
 }
 
 /* Code blocks */
@@ -42,10 +42,6 @@ pre[class*="language-"] {
     overflow: auto;
     border: 1px solid #dddddd;
     background-color: white;
-}
-
-:not(pre) > code[class*="language-"],
-pre[class*="language-"] {
 }
 
 /* Inline code */
@@ -90,7 +86,9 @@ pre[class*="language-"] {
 .token.keyword,
 .token.attr-value,
 .language-autohotkey .token.selector,
-code[class*="language-css"] {
+.language-json .token.boolean, 
+.language-json .token.number, 
+code[class*="language-css"]{
     color: #0000ff;
 }
 
@@ -116,7 +114,8 @@ code[class*="language-css"] {
     font-style: italic;
 }
 
-.token.class-name {
+.token.class-name,
+.language-json .token.property {
     color: #2B91AF;
 }
 
@@ -136,4 +135,23 @@ code[class*="language-css"] {
     background: #ffff00;
     color: #393A34;
 }
-    
+
+/* overrides color-values for the Line Numbers plugin
+ * http://prismjs.com/plugins/line-numbers/
+ */
+.line-numbers .line-numbers-rows {
+  border-right-color: #a5a5a5;
+}
+
+.line-numbers-rows > span:before {
+  color: #2B91AF;
+}
+
+/* overrides color-values for the Line Highlight plugin
+* http://prismjs.com/plugins/line-highlight/
+*/
+.line-highlight {
+  background: rgba(193, 222, 241, 0.2);
+  background: -webkit-linear-gradient(left, rgba(193, 222, 241, 0.2) 70%, rgba(221, 222, 241, 0));
+  background: linear-gradient(to right, rgba(193, 222, 241, 0.2) 70%, rgba(221, 222, 241, 0));
+}
