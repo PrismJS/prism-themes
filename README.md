@@ -50,3 +50,5 @@ To use one of the themes, just include the theme's CSS file in your page. Exampl
 [![Duotone Light](screenshots/prism-duotone-light.png)](themes/prism-duotone-light.css)</p>
 * <p>[__VS__](themes/prism-vs.css) (by [andrewlock](https://github.com/andrewlock))<br />
 [![VS](screenshots/prism-vs.png)](themes/prism-vs.css)</p>
+* <p>[__Cobalt2__](themes/cobalt2.css) (by [Nate Steiner](https://github.com/nsteiner), based on [Cobalt2 Syntax theme for Atom](https://github.com/wesbos/cobalt2-atom))<br />
+[![Cobalt2](screenshots/prism-cobalt2.png)](themes/prism-cobalt2.css)</p>
