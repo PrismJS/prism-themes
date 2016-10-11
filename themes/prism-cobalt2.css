@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+/*
+ * Cobalt2 for Prism
+ * @author Nate Steiner (https://github.com/nsteiner)
+ * Based on Cobalt2 Atom theme (https://github.com/wesbos/cobalt2-atom)
+ *
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #F8D900;
+	background: none;
+	text-shadow: none;
+	font-family: 'Inconsolata', monospace;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+	text-shadow: none;
+	background: #34648e;
+}
+
+pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+code[class*="language-"]::selection, code[class*="language-"] ::selection {
+	text-shadow: none;
+	background: #34648e;
+}
+
+@media print {
+	code[class*="language-"],
+	pre[class*="language-"] {
+		text-shadow: none;
+	}
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #092F4F;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #2981FF;
+}
+
+.token.punctuation {
+	color: #fff;
+}
+
+.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #A3FFFF;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #41D500;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+	color: #DD8F9A;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+	color: #FB9D00;
+}
+
+.token.function {
+	color: #FB588A;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+	color: #C2AAFF;
+}
+
+.token.important,
+.token.bold {
+	color: #C2AAFF;
+	font-weight:normal;
+}
+.token.italic {
+	color: #A3FFFF;
+}
+
+.token.entity {
+	cursor: help;
+}
