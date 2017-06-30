@@ -50,3 +50,5 @@ To use one of the themes, just include the theme's CSS file in your page. Exampl
 [![Duotone Light](screenshots/prism-duotone-light.png)](themes/prism-duotone-light.css)</p>
 * <p>[__VS__](themes/prism-vs.css) (by [andrewlock](https://github.com/andrewlock))<br />
 [![VS](screenshots/prism-vs.png)](themes/prism-vs.css)</p>
+* <p>[__Darcula__](themes/prism-darcula.css) (by [service-paradis](https://github.com/service-paradis), based on Jetbrains Darcula theme)<br />
+[![Darcula](screenshots/prism-darcula.png)](themes/prism-darcula.css)</p>
