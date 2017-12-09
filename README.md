@@ -66,3 +66,6 @@ To use one of the themes, just include the theme's CSS file in your page. Exampl
 
 * [__Darcula__](themes/prism-darcula.css) (by [service-paradis](https://github.com/service-paradis), based on Jetbrains Darcula theme)<br />
 [![Darcula](screenshots/prism-darcula.png)](themes/prism-darcula.css)
+
+* [__a11y Dark__](themes/prism-a11y-dark.css) (by [ericwbailey](https://github.com/ericwbailey))<br />
+[![a11y Dark](screenshots/prism-a11y-dark.png)](themes/prism-a11y-dark.css)
