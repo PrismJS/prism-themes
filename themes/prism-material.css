@@ -120,9 +120,6 @@ div.code-toolbar {
 }
 
 div.code-toolbar > .toolbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 	position: absolute;
 	top: .3em;
 	right: .2em;
@@ -176,7 +173,7 @@ div.code-toolbar > .toolbar button:hover,
 div.code-toolbar > .toolbar button:focus,
 div.code-toolbar > .toolbar span:hover,
 div.code-toolbar > .toolbar span:focus {
-	color: #fff!important;
+	color: #fff;
 	text-decoration: none;
 }
 
