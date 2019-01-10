@@ -1,0 +1,220 @@
+/**
+ * Material theme
+ * Inspire on Material Design colors
+ * @author AlexTorresSk
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+    color: rgba(0,0,0,.87);
+    font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    font-size: 0.95em;
+    line-height: 1.2em;
+
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+    padding: 1em;
+    overflow: auto;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+    background: rgba(0,0,0,.04);
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+    padding: .1em;
+    border-radius: .3em
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+    color: slategray
+}
+
+.token.punctuation {
+    color: #999
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+    color: #e90
+}
+
+.token.attr-name,
+.token.builtin,
+.token.selector,
+.token.string {
+    color: #E91E63
+}
+
+.token.boolean,
+.token.constant,
+.token.number,
+.token.property,
+.token.symbol,
+.token.tag {
+    color: #9D1DB3
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+    color: #00BCD4
+}
+
+.language-css .token.string,
+.style .token.string,
+.token.entity,.token.operator,
+.token.url,
+.token.variable {
+    color: #9D1DB3;
+    background: 0 0
+}
+
+.token.function {
+    color: #009688
+}
+
+.namespace {
+    opacity: .7
+}
+
+.token.important,
+.token.bold {
+    font-weight: 700
+}
+
+.token.italic {
+    font-style: italic
+}
+
+.token.entity {
+    cursor: help
+}
+
+/* Toolbar */
+div.code-toolbar {
+    position: relative;
+}
+
+div.code-toolbar > .toolbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	position: absolute;
+	top: .3em;
+	right: .2em;
+	transition: opacity 0.3s ease-in-out;
+	opacity: 0;
+}
+
+div.code-toolbar:hover > .toolbar {
+	opacity: 1;
+}
+
+div.code-toolbar > .toolbar .toolbar-item {
+	display: inline-block;
+}
+
+div.code-toolbar > .toolbar a {
+	cursor: pointer;
+}
+
+div.code-toolbar > .toolbar button {
+	background: none;
+	border: 0;
+	color: inherit;
+	font: inherit;
+	line-height: normal;
+	overflow: visible;
+	padding: 0;
+	-webkit-user-select: none; /* for button */
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+
+div.code-toolbar > .toolbar a,
+div.code-toolbar > .toolbar button,
+div.code-toolbar > .toolbar span {
+	display: block;
+    color: #fff;
+    padding: 0 8px;
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    z-index: 1;
+    line-height: 2;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+div.code-toolbar > .toolbar a:hover,
+div.code-toolbar > .toolbar a:focus,
+div.code-toolbar > .toolbar button:hover,
+div.code-toolbar > .toolbar button:focus,
+div.code-toolbar > .toolbar span:hover,
+div.code-toolbar > .toolbar span:focus {
+	color: #fff!important;
+	text-decoration: none;
+}
+
+.code-toolbar > .toolbar a {
+    cursor: pointer;
+    background: linear-gradient(135deg,#a9a9a9,#565656);
+}
+
+pre + .toolbar .toolbar-item span {
+    background: linear-gradient(135deg,#a9a9a9,#565656);
+}
+
+pre.language-html + .toolbar .toolbar-item span {
+    background: linear-gradient(135deg,#ff8792,#ff4c9f);
+}
+
+pre.language-javascript + .toolbar .toolbar-item span,
+pre.language-js + .toolbar .toolbar-item span {
+    background: linear-gradient(135deg,#ffd07a,#ff9133);
+}
+
+pre.language-bash + .toolbar .toolbar-item span {
+    background: linear-gradient(135deg,#a1a6c9,#7d80a2);
+}
+
+pre.language-css + .toolbar .toolbar-item span {
+    background: linear-gradient(135deg,#f17aff,#a733ff);
+}
+
+pre.language-php + .toolbar .toolbar-item span {
+    background: linear-gradient(135deg,#7aa9ff,#334cff);
+}
+
+pre.language-python + .toolbar .toolbar-item span,
+pre.language-svg + .toolbar .toolbar-item span {
+    background: linear-gradient(135deg,#a1ff7a,#33ffc7);
+}
+
+pre.language-typescript + .toolbar .toolbar-item span {
+    background: linear-gradient(135deg,#7ac2ff,#3385ff);
+}

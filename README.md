@@ -69,3 +69,6 @@ To use one of the themes, just include the theme's CSS file in your page. Exampl
 
 * [__a11y Dark__](themes/prism-a11y-dark.css) (by [ericwbailey](https://github.com/ericwbailey))<br />
 [![a11y Dark](screenshots/prism-a11y-dark.png)](themes/prism-a11y-dark.css)
+
+* [__Material__](themes/prism-material.css) (by [AlexTorresSk](https://github.com/AlexTorresSk))<br />
+[![Material](screenshots/prism-material.png)](themes/prism-material.css)
