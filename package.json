@@ -1,6 +1,6 @@
 {
   "name": "prism-themes",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Addtional themes for the Prism syntax highlighting library.",
   "main": "README.md",
   "scripts": {
