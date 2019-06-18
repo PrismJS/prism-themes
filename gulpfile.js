@@ -21,15 +21,11 @@ async function screenshotTheme(theme) {
 
 	await captureWebsite.file(screenshotDir + '/code.html', file, {
 		defaultBackground: false,
+		scaleFactor: 1,
+		element: 'pre',
 		styles: [
 			fs.readFileSync(`${themesDir}/${theme}.css`, 'utf-8')
-		],
-
-		beforeScreenshot: async (page, browser) => {
-			const box = await page.$('pre').then(e => e.boxModel());
-
-			await page.setViewport({ width: box.width, height: box.height, deviceScaleFactor: 1 });
-		}
+		]
 	});
 }
 
