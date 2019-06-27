@@ -74,4 +74,4 @@ To use one of the themes, just include the theme's CSS file in your page. Exampl
 [![a11y Dark](screenshots/prism-dracula.png)](themes/prism-dracula.css)
 
 * [__Synthwave '84__](themes/prism-synthwave84.css) (originally by [Robb Owen](https://github.com/robb0wen), adapted by [Marc Backes](https://github.com/themarcba))<br />
-[![CB](screenshots/prism-synthwave84.png)](themes/prism-synthwave84.css)
+[![Synthwave '84](screenshots/prism-synthwave84.png)](themes/prism-synthwave84.css)
