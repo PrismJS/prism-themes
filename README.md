@@ -73,5 +73,5 @@ To use one of the themes, just include the theme's CSS file in your page. Exampl
 * [__Dracula__](themes/prism-dracula.css) (by [Byverdu](https://github.com/byverdu))<br />
 [![a11y Dark](screenshots/prism-dracula.png)](themes/prism-dracula.css)
 
-* [__Shades of Purple__](themes/shades-of-purple.css) (by [Ahmad Awais](https://github.com/ahmadawais))<br />
-[![a11y Dark](screenshots/shades-of-purple.png)](themes/shades-of-purple.css)
+* [__Shades of Purple__](themes/prism-shades-of-purple.css) (by [Ahmad Awais](https://github.com/ahmadawais))<br />
+[![Shades of Purple](screenshots/prism-shades-of-purple.png)](themes/shades-of-purple.css)
