@@ -1,9 +1,10 @@
 const fs = require('fs').promises;
 const captureWebsite = require('capture-website');
+const path = require('path');
 
 
-const themesDir = __dirname + '/themes';
-const screenshotDir = __dirname + '/screenshots';
+const themesDir = path.join(__dirname, 'themes');
+const screenshotDir = path.join(__dirname, 'screenshots');
 
 /**
  * Returns the names of all themes. This includes the `prism-` prefix.
