@@ -27,11 +27,11 @@ To use one of the themes, include a theme's `css` file (present in the [themes d
 
 > Originally by [C. Bavota](https://bitbucket.org/cbavota), adapted by [atelierbram](https://github.com/atelierbram)
 
+[![CB](screenshots/prism-cb.png)](themes/prism-cb.css)
+
 ```html
 <link href="prism-cb.css" rel="stylesheet" />
 ```
-
-[![CB](screenshots/prism-cb.png)](themes/prism-cb.css)
 
 ## 🎨 [**GHColors**](themes/prism-ghcolors.css)
 
