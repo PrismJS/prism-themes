@@ -5,18 +5,36 @@ const captureWebsite = require('capture-website');
 const themesDir = __dirname + '/themes';
 const screenshotDir = __dirname + '/screenshots';
 
-async function screenshotAllThemes() {
-	const themes = fs.readdirSync(themesDir).map(f => (/^.+(?=\.css$)/.exec(f) || [''])[0]).filter(f => f);
+function getThemes() {
+	return fs.readdirSync(themesDir).map(f => (/^.+(?=\.css$)/.exec(f) || [''])[0]).filter(f => f);
+}
 
-	for (const theme of themes) {
-		await screenshotTheme(theme);
+/**
+ * Takes a screenshot of all themes overwriting the old ones.
+ */
+async function screenshotAllThemes() {
+	for (const theme of getThemes()) {
+		await screenshotTheme(theme, true);
 	}
 }
 
-async function screenshotTheme(theme) {
+/**
+ * Takes a screenshot of themes which don't have one already.
+ */
+async function screenshotMissingThemes() {
+	for (const theme of getThemes()) {
+		await screenshotTheme(theme, false);
+	}
+}
+
+async function screenshotTheme(theme, overwrite) {
 	const file = `${screenshotDir}/${theme}.png`;
 	if (fs.existsSync(file)) {
-		fs.unlinkSync(file);
+		if (overwrite) {
+			fs.unlinkSync(file);
+		} else {
+			return;
+		}
 	}
 
 	await captureWebsite.file(screenshotDir + '/code.html', file, {
@@ -29,4 +47,5 @@ async function screenshotTheme(theme) {
 	});
 }
 
-exports.screenshot = screenshotAllThemes;
+exports.screenshot = screenshotMissingThemes;
+exports['screenshot-all'] = screenshotAllThemes;
