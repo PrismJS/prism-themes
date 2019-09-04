@@ -78,3 +78,17 @@ To use one of the themes, just include the theme's CSS file in your page. Exampl
 
 * [__Shades of Purple__](themes/prism-shades-of-purple.css) (by [Ahmad Awais](https://github.com/ahmadawais))<br />
 [![Shades of Purple](screenshots/prism-shades-of-purple.png)](themes/prism-shades-of-purple.css)
+
+
+## Contributing
+
+To contribute your own theme create copy it in the `themes` directory and add your themes to the list of available themes.
+The links for your themes have to be `themes/prism-<your theme>.css` for the theme itself and `screenshots/prism-<your theme>.png` for the screenshot.
+
+The screenshot will be created for you by running the following command:
+
+```bash
+npm ci && npx gulp screenshot
+```
+
+Thank you so much for contributing!!
