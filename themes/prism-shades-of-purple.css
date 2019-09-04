@@ -1,7 +1,7 @@
 /**
  * Shades of Purple Theme for Prism.js
  *
- * @author Ahmad Awais <https://github.com/AhmadAwais>
+ * @author Ahmad Awais <https://twitter.com/MrAhmadAwais/>
  * @support Follow/tweet at https://twitter.com/MrAhmadAwais/
  */
 
@@ -23,21 +23,18 @@ pre[class*='language-'] {
 	-ms-hyphens: none;
 	hyphens: none;
 
-	font-family: 'Operator Mono', 'Fira Code', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace !important;
-	font-weight: 400 !important;
-	font-size: 17px !important;
-	line-height: 25px !important;
-	letter-spacing: 0.5px !important;
+	font-family: 'Operator Mono', 'Fira Code', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 25px;
+	letter-spacing: 0.5px;
+	text-shadow: 0 1px #222245;
 }
 
 pre[class*='language-']::-moz-selection,
 pre[class*='language-'] ::-moz-selection,
 code[class*='language-']::-moz-selection,
-code[class*='language-'] ::-moz-selection {
-	color: inherit;
-	background: #a599e9;
-}
-
+code[class*='language-'] ::-moz-selection,
 pre[class*='language-']::selection,
 pre[class*='language-'] ::selection,
 code[class*='language-']::selection,
@@ -46,7 +43,7 @@ code[class*='language-'] ::selection {
 	background: #a599e9;
 }
 
-/* Code blocks */
+/* Code blocks. */
 pre[class*='language-'] {
 	padding: 2em;
 	margin: 0.5em 0;
@@ -62,6 +59,10 @@ pre[class*='language-'] {
 :not(pre) > code[class*='language-'] {
 	padding: 0.1em;
 	border-radius: 0.3em;
+}
+
+.token {
+	font-weight: 400;
 }
 
 .token.comment,
@@ -175,16 +176,24 @@ code.language-css .token.selector > .token.pseudo-element {
 	color: #fb94ff;
 }
 
-.token {
-	font-weight: normal;
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+	background: none;
 }
 
-.line-highlight {
-	margin-top: 36px !important;
-	background: linear-gradient(to right, rgba(179, 98, 255, 0.17), transparent) !important;
+pre .line-highlight,
+pre .line-highlight.line-highlight,
+pre > code.line-highlight {
+	margin-top: 36px;
+	background: linear-gradient(to right, rgba(179, 98, 255, 0.17), transparent);
 }
 
-.line-highlight:before,
-.line-highlight[data-end]:after {
-	content: '' !important;
+pre .line-highlight:before,
+pre > code.line-highlight:before,
+pre .line-highlight[data-end]:after,
+pre > code.line-highlight[data-end]:after {
+	content: '';
 }
