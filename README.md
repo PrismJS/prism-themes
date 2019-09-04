@@ -20,6 +20,19 @@ To use one of the themes, just include the theme's CSS file in your page. Exampl
 </html>
 ```
 
+## Adding a New Theme
+
+To add your own theme, copy it into the `themes` directory and add your themes to the list of available themes in the readme.
+The links for your themes have to be `themes/prism-<your theme>.css` for the theme itself and `screenshots/prism-<your theme>.png` for the screenshot.
+
+The screenshot will be created for you by running the following command:
+
+```bash
+npm ci && npx gulp screenshot
+```
+
+Thank you so much for contributing!!
+
 ## Available themes
 
 * [__CB__](themes/prism-cb.css) (originally by [C. Bavota](https://bitbucket.org/cbavota), adapted by [atelierbram](https://github.com/atelierbram))<br />
@@ -35,7 +48,7 @@ To use one of the themes, just include the theme's CSS file in your page. Exampl
 [![Xonokai](screenshots/prism-xonokai.png)](themes/prism-xonokai.css)
 
 * [__Ateliersulphurpool-light__](themes/prism-base16-ateliersulphurpool.light.css) (by [Bram de Haan](https://github.com/atelierbram))<br />
-[![Ateliersulpherpool-light](screenshots/prism-ateliersulphurpool-light.png)](themes/prism-base16-ateliersulphurpool.light.css)
+[![Ateliersulpherpool-light](screenshots/prism-base16-ateliersulphurpool.light.png)](themes/prism-base16-ateliersulphurpool.light.css)
 
 * [__Hopscotch__](themes/prism-hopscotch.css) (by [Jan T. Sott](https://github.com/idleberg))<br />
 [![Hopscotch](screenshots/prism-hopscotch.png)](themes/prism-hopscotch.css)
