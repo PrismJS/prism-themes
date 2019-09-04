@@ -2,9 +2,9 @@
 
 > A selection of additional themes for the [Prism syntax highlighting library](http://prismjs.com/).
 
-## How to use a theme
+## Getting Started
 
-To use one of the themes, include a theme's `css` file (present in the [themes directory](themes)) in your page. For example:
+To use one of the themes, include theme's `css` file (present in the [themes directory](themes)) in your page. For example:
 
 ```html
 <!DOCTYPE html>
