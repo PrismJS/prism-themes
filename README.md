@@ -67,7 +67,7 @@ To use one of the themes, include a theme's `css` file (present in the [themes d
 
 > By [Bram de Haan](https://github.com/atelierbram)
 
-[![Ateliersulpherpool-light](screenshots/prism-ateliersulphurpool-light.png)](themes/prism-base16-ateliersulphurpool.light.css)
+[![Ateliersulpherpool-light](screenshots/prism-base16-ateliersulphurpool.light.png)](themes/prism-base16-ateliersulphurpool.light.css)
 
 ```html
 <link href="prism-base16-ateliersulphurpool.light.css" rel="stylesheet" />
