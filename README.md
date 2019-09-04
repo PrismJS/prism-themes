@@ -4,7 +4,7 @@
 
 ## How to use a theme
 
-To use one of the themes, include the theme's `css` file in your page. For example:
+To use one of the themes, include a theme's `css` file (present in the [themes directory](themes)) in your page. For example:
 
 ```html
 <!DOCTYPE html>
@@ -12,7 +12,7 @@ To use one of the themes, include the theme's `css` file in your page. For examp
 	<head>
 		...
 		<!-- <link href="prism-[theme-name-here].css" rel="stylesheet" /> -->
-		<link href="prism-ghcolors.css" rel="stylesheet" />
+		<link href="prism-shades-of-purple.css" rel="stylesheet" />
 	</head>
 	<body>
 		...
