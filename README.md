@@ -75,3 +75,6 @@ To use one of the themes, just include the theme's CSS file in your page. Exampl
 
 * [__Synthwave '84__](themes/prism-synthwave84.css) (originally by [Robb Owen](https://github.com/robb0wen), adapted by [Marc Backes](https://github.com/themarcba))<br />
 [![Synthwave '84](screenshots/prism-synthwave84.png)](themes/prism-synthwave84.css)
+
+* [__Shades of Purple__](themes/prism-shades-of-purple.css) (by [Ahmad Awais](https://github.com/ahmadawais))<br />
+[![Shades of Purple](screenshots/prism-shades-of-purple.png)](themes/prism-shades-of-purple.css)
