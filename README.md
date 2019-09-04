@@ -23,7 +23,7 @@ To use one of the themes, include a theme's `css` file (present in the [themes d
 
 ## Available Themes
 
-### [**CB**](themes/prism-cb.css)
+## 🎨 [**CB**](themes/prism-cb.css)
 
 > Originally by [C. Bavota](https://bitbucket.org/cbavota), adapted by [atelierbram](https://github.com/atelierbram)
 
@@ -33,9 +33,9 @@ To use one of the themes, include a theme's `css` file (present in the [themes d
 
 [![CB](screenshots/prism-cb.png)](themes/prism-cb.css)
 
-### [**GHColors**](themes/prism-ghcolors.css)
+## 🎨 [**GHColors**](themes/prism-ghcolors.css)
 
-> by [aviaryan](https://github.com/aviaryan)
+> By [aviaryan](https://github.com/aviaryan)
 
 ```html
 <link href="prism-ghcolors.css" rel="stylesheet" />
@@ -43,7 +43,7 @@ To use one of the themes, include a theme's `css` file (present in the [themes d
 
 [![GHColors](screenshots/prism-ghcolors.png)](themes/prism-ghcolors.css)
 
-### [**Pojoaque**](themes/prism-pojoaque.css)
+## 🎨 [**Pojoaque**](themes/prism-pojoaque.css)
 
 > Originally by [Jason Tate](http://web-cms-designs.com/ftopict-10-pojoaque-style-for-highlight-js-code-highlighter.html), adapted by [atelierbram](https://github.com/atelierbram)
 
@@ -53,7 +53,7 @@ To use one of the themes, include a theme's `css` file (present in the [themes d
 
 [![Pojoaque](screenshots/prism-pojoaque.png)](themes/prism-pojoaque.css)
 
-### [**Xonokai**](themes/prism-xonokai.css)
+## 🎨 [**Xonokai**](themes/prism-xonokai.css)
 
 > Originally by [Maxime Thirouin (MoOx)](https://github.com/MoOx), adapted by [atelierbram](https://github.com/atelierbram)
 
@@ -63,7 +63,7 @@ To use one of the themes, include a theme's `css` file (present in the [themes d
 
 [![Xonokai](screenshots/prism-xonokai.png)](themes/prism-xonokai.css)
 
-### [**Ateliersulphurpool-light**](themes/prism-base16-ateliersulphurpool.light.css)
+## 🎨 [**Ateliersulphurpool-light**](themes/prism-base16-ateliersulphurpool.light.css)
 
 > By [Bram de Haan](https://github.com/atelierbram)
 
@@ -73,7 +73,7 @@ To use one of the themes, include a theme's `css` file (present in the [themes d
 
 [![Ateliersulpherpool-light](screenshots/prism-ateliersulphurpool-light.png)](themes/prism-base16-ateliersulphurpool.light.css)
 
-### [**Hopscotch**](themes/prism-hopscotch.css)
+## 🎨 [**Hopscotch**](themes/prism-hopscotch.css)
 
 > By [Jan T. Sott](https://github.com/idleberg)
 
@@ -83,7 +83,7 @@ To use one of the themes, include a theme's `css` file (present in the [themes d
 
 [![Hopscotch](screenshots/prism-hopscotch.png)](themes/prism-hopscotch.css)
 
-### [**Atom Dark**](themes/prism-atom-dark.css)
+## 🎨 [**Atom Dark**](themes/prism-atom-dark.css)
 
 > By [gibsjose](https://github.com/gibsjose), based on [Atom Dark Syntax theme](https://github.com/atom/atom-dark-syntax)
 
@@ -93,7 +93,7 @@ To use one of the themes, include a theme's `css` file (present in the [themes d
 
 [![Atom Dark](screenshots/prism-atom-dark.png)](themes/prism-atom-dark.css)
 
-### [**Duotone Dark**](themes/prism-duotone-dark.css)
+## 🎨 [**Duotone Dark**](themes/prism-duotone-dark.css)
 
 > By [Simurai](https://github.com/simurai), based on [Duotone Dark Syntax theme for Atom](https://github.com/simurai/duotone-dark-syntax)
 
@@ -103,7 +103,7 @@ To use one of the themes, include a theme's `css` file (present in the [themes d
 
 [![Duotone Dark](screenshots/prism-duotone-dark.png)](themes/prism-duotone-dark.css)
 
-### [**Duotone Sea**](themes/prism-duotone-sea.css)
+## 🎨 [**Duotone Sea**](themes/prism-duotone-sea.css)
 
 > By [Simurai](https://github.com/simurai), based on [DuoTone Dark Sea Syntax theme for Atom](https://github.com/simurai/duotone-dark-sea-syntax)
 
@@ -113,7 +113,7 @@ To use one of the themes, include a theme's `css` file (present in the [themes d
 
 [![Duotone Sea](screenshots/prism-duotone-sea.png)](themes/prism-duotone-sea.css)
 
-### [**Duotone Space**](themes/prism-duotone-space.css)
+## 🎨 [**Duotone Space**](themes/prism-duotone-space.css)
 
 > By [Simurai](https://github.com/simurai), based on [DuoTone Dark Space Syntax theme for Atom](https://github.com/simurai/duotone-dark-space-syntax)
 
@@ -123,7 +123,7 @@ To use one of the themes, include a theme's `css` file (present in the [themes d
 
 [![Duotone Space](screenshots/prism-duotone-space.png)](themes/prism-duotone-space.css)
 
-### [**Duotone Earth**](themes/prism-duotone-earth.css)
+## 🎨 [**Duotone Earth**](themes/prism-duotone-earth.css)
 
 > By [Simurai](https://github.com/simurai), based on [DuoTone Dark Earth Syntax theme for Atom](https://github.com/simurai/duotone-dark-earth-syntax)
 
@@ -133,7 +133,7 @@ To use one of the themes, include a theme's `css` file (present in the [themes d
 
 [![Duotone Earth](screenshots/prism-duotone-earth.png)](themes/prism-duotone-earth.css)
 
-### [**Duotone Forest**](themes/prism-duotone-forest.css)
+## 🎨 [**Duotone Forest**](themes/prism-duotone-forest.css)
 
 > By [Simurai](https://github.com/simurai), based on [DuoTone Dark Forest Syntax theme for Atom](https://github.com/simurai/duotone-dark-forest-syntax)
 
@@ -143,7 +143,7 @@ To use one of the themes, include a theme's `css` file (present in the [themes d
 
 [![Duotone Forest](screenshots/prism-duotone-forest.png)](themes/prism-duotone-forest.css)
 
-### [prism-duotone-forest.css](themes/prism-duotone-light.css)
+## 🎨 [prism-duotone-forest.css](themes/prism-duotone-light.css)
 
 > By [Simurai](https://github.com/simurai), based on [DuoTone Light Syntax theme](https://github.com/simurai/duotone-light-syntax)
 
@@ -153,7 +153,7 @@ To use one of the themes, include a theme's `css` file (present in the [themes d
 
 [![Duotone Light](screenshots/prism-duotone-light.png)](themes/prism-duotone-light.css)
 
-### [**VS**](themes/prism-vs.css)
+## 🎨 [**VS**](themes/prism-vs.css)
 
 > By [andrewlock](https://github.com/andrewlock)
 
@@ -163,7 +163,7 @@ To use one of the themes, include a theme's `css` file (present in the [themes d
 
 [![VS](screenshots/prism-vs.png)](themes/prism-vs.css)
 
-### [**Darcula**](themes/prism-darcula.css)
+## 🎨 [**Darcula**](themes/prism-darcula.css)
 
 > By [service-paradis](https://github.com/service-paradis), based on Jetbrains Darcula theme)
 
@@ -173,7 +173,7 @@ To use one of the themes, include a theme's `css` file (present in the [themes d
 
 [![Darcula](screenshots/prism-darcula.png)](themes/prism-darcula.css)
 
-### [**a11y Dark**](themes/prism-a11y-dark.css)
+## 🎨 [**a11y Dark**](themes/prism-a11y-dark.css)
 
 > By [ericwbailey](https://github.com/ericwbailey)
 
@@ -183,7 +183,7 @@ To use one of the themes, include a theme's `css` file (present in the [themes d
 
 [![a11y Dark](screenshots/prism-a11y-dark.png)](themes/prism-a11y-dark.css)
 
-### [**Dracula**](themes/prism-dracula.css)
+## 🎨 [**Dracula**](themes/prism-dracula.css)
 
 > By [Byverdu](https://github.com/byverdu)
 
@@ -193,7 +193,7 @@ To use one of the themes, include a theme's `css` file (present in the [themes d
 
 [![a11y Dark](screenshots/prism-dracula.png)](themes/prism-dracula.css)
 
-### [**Synthwave '84**](themes/prism-synthwave84.css)
+## 🎨 [**Synthwave '84**](themes/prism-synthwave84.css)
 
 > Originally by [Robb Owen](https://github.com/robb0wen), adapted by [Marc Backes](https://github.com/themarcba)
 
@@ -203,7 +203,7 @@ To use one of the themes, include a theme's `css` file (present in the [themes d
 
 [![Synthwave '84](screenshots/prism-synthwave84.png)](themes/prism-synthwave84.css)
 
-### [**Shades of Purple**](themes/prism-shades-of-purple.css)
+## 🎨 [**Shades of Purple**](themes/prism-shades-of-purple.css)
 
 > By [Ahmad Awais](https://github.com/ahmadawais)
 
