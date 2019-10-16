@@ -91,3 +91,12 @@ Thank you so much for contributing!!
 
 * [__Shades of Purple__](themes/prism-shades-of-purple.css) (by [Ahmad Awais](https://github.com/ahmadawais))<br />
 [![Shades of Purple](screenshots/prism-shades-of-purple.png)](themes/prism-shades-of-purple.css)
+
+* [__Material Dark__](themes/prism-material-dark.css) (by [dutchenkoOleg](https://github.com/dutchenkoOleg))<br />
+[![Material Dark](screenshots/prism-material-dark.png)](themes/prism-material-dark.css)
+
+* [__Material Light__](themes/prism-material-light.css) (by [dutchenkoOleg](https://github.com/dutchenkoOleg))<br />
+[![Material Light](screenshots/prism-material-light.png)](themes/prism-material-light.css)
+
+* [__Material Oceanic__](themes/prism-material-oceanic.css) (by [dutchenkoOleg](https://github.com/dutchenkoOleg))<br />
+[![Material Oceanic](screenshots/prism-material-oceanic.png)](themes/prism-material-oceanic.css)
