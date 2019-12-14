@@ -32,13 +32,13 @@ pre[class*="language-"] {
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
 code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
 	color: inherit;
-	background: rgba(33,66,131,.85);
+	background: rgba(33, 66, 131, .85);
 }
 
 pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
 code[class*="language-"]::selection, code[class*="language-"] ::selection {
 	color: inherit;
-	background: rgba(33,66,131,.85);
+	background: rgba(33, 66, 131, .85);
 }
 
 /* Code blocks */
@@ -108,6 +108,7 @@ pre[class*="language-"] {
 .token.attr-value .punctuation {
 	color: #a5c261;
 }
+
 .token.attr-value .punctuation:first-child {
 	color: #a9b7c6;
 }
@@ -140,10 +141,6 @@ pre[class*="language-"] {
 .token.deleted {
 	background: #484a4a;
 }
-
-/*code.language-css .token.punctuation {
-	color: #cc7832;
-}*/
 
 code.language-css .token.property,
 code.language-css .token.property + .token.punctuation {

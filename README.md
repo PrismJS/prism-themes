@@ -28,7 +28,13 @@ The links for your themes have to be `themes/prism-<your theme>.css` for the the
 The screenshot will be created for you by running the following command:
 
 ```bash
-npm ci && npx gulp screenshot
+npm i && npx gulp screenshot
+```
+
+Before making a pull request, you can the following command to verify that all checks pass:
+
+```bash
+npm test
 ```
 
 Thank you so much for contributing!!

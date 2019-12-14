@@ -1,4 +1,5 @@
 const fs = require('fs').promises;
+const { parallel } = require('gulp');
 const captureWebsite = require('capture-website');
 const path = require('path');
 
@@ -60,5 +61,34 @@ async function screenshotTheme(theme, overwrite) {
 	});
 }
 
+/**
+ * Checks that all themes have a screenshot.
+ */
+async function checkScreenshots() {
+	for (const theme of await getThemes()) {
+		const file = `${screenshotDir}/${theme}.png`;
+		if (!await fs.stat(file).then(s => s.isFile()).catch(() => false)) {
+			throw new Error(`The theme "${theme}" doesn't have a screenshot.`);
+		}
+	}
+}
+
+/**
+ * Checks that all themes are in the list of available themes.
+ */
+async function checkAvailableThemes() {
+	const readme = await fs.readFile(path.join(__dirname, 'README.md'), 'utf-8');
+
+	for (const theme of await getThemes()) {
+		if (!readme.includes(theme + ".css")) {
+			throw new Error(`The theme "${theme}" is not included in the list of available themes.`);
+		}
+		if (!readme.includes(theme + ".png")) {
+			throw new Error(`The screenshot of "${theme}" is not included in the list of available themes.`);
+		}
+	}
+}
+
 exports.screenshot = screenshotMissingThemes;
 exports['screenshot-all'] = screenshotAllThemes;
+exports.check = parallel(checkScreenshots, checkAvailableThemes)
