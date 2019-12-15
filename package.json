@@ -4,8 +4,8 @@
   "description": "Additional themes for the Prism syntax highlighting library.",
   "main": "README.md",
   "scripts": {
-    "lint": "npx stylelint \"themes/*.css\"",
-    "lint-fix": "npx stylelint \"themes/*.css\" --fix",
+    "lint": "stylelint \"themes/*.css\"",
+    "lint-fix": "stylelint \"themes/*.css\" --fix",
     "test": "npm run lint"
   },
   "repository": {
