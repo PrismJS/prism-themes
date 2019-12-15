@@ -123,6 +123,7 @@ pre[class*='language-'] {
 .token.attr-value .punctuation {
 	color: #a5c261;
 }
+
 .token.attr-value .punctuation:first-child {
 	color: #a9b7c6;
 }

@@ -9,8 +9,7 @@
 
 code[class*="language-"],
 pre[class*="language-"] {
-	color: #ffffff;
-	font-family: "Fira Mono", Menlo, Monaco, "Lucida Console","Courier New", Courier, monospace;
+	font-family: "Fira Mono", Menlo, Monaco, "Lucida Console", "Courier New", Courier, monospace;
 	font-size: 16px;
 	line-height: 1.375;
 	direction: ltr;
@@ -71,21 +70,27 @@ pre[class*="language-"] {
 .token.number {
 	color: #fd8b19;
 }
+
 .token.property {
 	color: #fdcc59;
 }
+
 .token.tag {
 	color: #1290bf;
 }
+
 .token.string {
 	color: #149b93;
 }
+
 .token.selector {
 	color: #c85e7c;
 }
+
 .token.attr-name {
 	color: #fd8b19;
 }
+
 .token.entity,
 .token.url,
 .language-css .token.string,
@@ -125,4 +130,3 @@ pre > code.highlight {
 	outline: .4em solid red;
 	outline-offset: .4em;
 }
-

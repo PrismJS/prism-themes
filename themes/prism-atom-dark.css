@@ -104,7 +104,7 @@ pre[class*="language-"] {
 
 .token.entity {
 	color: #FFFFB6;
-	/* text-decoration: underline; */
+	cursor: help;
 }
 
 .token.url {
@@ -137,10 +137,7 @@ pre[class*="language-"] {
 .token.bold {
 	font-weight: bold;
 }
+
 .token.italic {
 	font-style: italic;
-}
-
-.token.entity {
-	cursor: help;
 }
