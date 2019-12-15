@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "stylelint \"themes/*.css\"",
     "lint-fix": "stylelint \"themes/*.css\" --fix",
-    "test": "npm run lint"
+    "test": "npm run lint && gulp check"
   },
   "repository": {
     "type": "git",
