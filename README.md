@@ -106,3 +106,6 @@ Thank you so much for contributing!!
 
 * [__Material Oceanic__](themes/prism-material-oceanic.css) (by [dutchenkoOleg](https://github.com/dutchenkoOleg))<br />
 [![Material Oceanic](screenshots/prism-material-oceanic.png)](themes/prism-material-oceanic.css)
+
+* [__Coy without shadows__](themes/prism-coy-without-shadows.css) (by [RunDevelopment](https://github.com/RunDevelopment), based on Tim Shedor's Coy theme)<br />
+[![Coy without shadows](screenshots/prism-coy-without-shadows.png)](themes/prism-coy-without-shadows.css)
