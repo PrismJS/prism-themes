@@ -1,0 +1,172 @@
+{
+	"themes": {
+		"cb": {
+			"title": "CB",
+			"owner": "atelierbram",
+			"originalOwner": {
+				"name": "C. Bavota",
+				"link": "https://bitbucket.org/cbavota"
+			}
+		},
+		"ghcolors": {
+			"title": "GHColors",
+			"owner": "aviaryan"
+		},
+		"pojoaque": {
+			"title": "Pojoaque",
+			"owner": "atelierbram",
+			"originalOwner": {
+				"name": "Jason Tate",
+				"link": "http://web-cms-designs.com/ftopict-10-pojoaque-style-for-highlight-js-code-highlighter.html"
+			}
+		},
+		"xonokai": {
+			"title": "Xonokai",
+			"owner": "atelierbram",
+			"originalOwner": {
+				"name": "Maxime Thirouin (MoOx)",
+				"link": "https://github.com/MoOx"
+			}
+		},
+		"base16-ateliersulphurpool.light": {
+			"title": "Ateliersulphurpool-light",
+			"owner": {
+				"name": "Bram de Haan",
+				"link": "https://github.com/atelierbram"
+			}
+		},
+		"hopscotch": {
+			"title": "Hopscotch",
+			"owner": {
+				"name": "Jan T. Sott",
+				"link": "https://github.com/idleberg"
+			}
+		},
+		"atom-dark": {
+			"title": "Atom Dark",
+			"owner": "gibsjose",
+			"basedOn": {
+				"name": "Atom Dark Syntax theme",
+				"link": "https://github.com/atom/atom-dark-syntax"
+			}
+		},
+		"duotone-dark": {
+			"title": "Duotone Dark",
+			"owner": {
+				"name": "Simurai",
+				"link": "https://github.com/simurai"
+			},
+			"basedOn": {
+				"name": "Duotone Dark Syntax theme for Atom",
+				"link": "https://github.com/simurai/duotone-dark-syntax"
+			}
+		},
+		"duotone-sea": {
+			"title": "Duotone Sea",
+			"owner": {
+				"name": "Simurai",
+				"link": "https://github.com/simurai"
+			},
+			"basedOn": {
+				"name": "DuoTone Dark Sea Syntax theme for Atom",
+				"link": "https://github.com/simurai/duotone-dark-sea-syntax"
+			}
+		},
+		"duotone-space": {
+			"title": "Duotone Space",
+			"owner": {
+				"name": "Simurai",
+				"link": "https://github.com/simurai"
+			},
+			"basedOn": {
+				"name": "DuoTone Dark Space Syntax theme for Atom",
+				"link": "https://github.com/simurai/duotone-dark-space-syntax"
+			}
+		},
+		"duotone-earth": {
+			"title": "Duotone Earth",
+			"owner": {
+				"name": "Simurai",
+				"link": "https://github.com/simurai"
+			},
+			"basedOn": {
+				"name": "DuoTone Dark Earth Syntax theme for Atom",
+				"link": "https://github.com/simurai/duotone-dark-earth-syntax"
+			}
+		},
+		"duotone-forest": {
+			"title": "Duotone Forest",
+			"owner": {
+				"name": "Simurai",
+				"link": "https://github.com/simurai"
+			},
+			"basedOn": {
+				"name": "DuoTone Dark Forest Syntax theme for Atom",
+				"link": "https://github.com/simurai/duotone-dark-forest-syntax"
+			}
+		},
+		"duotone-light": {
+			"title": "Duotone Light",
+			"owner": {
+				"name": "Simurai",
+				"link": "https://github.com/simurai"
+			},
+			"basedOn": {
+				"name": "DuoTone Light Syntax theme",
+				"link": "https://github.com/simurai/duotone-light-syntax"
+			}
+		},
+		"vs": {
+			"title": "VS",
+			"owner": "andrewlock"
+		},
+		"darcula": {
+			"title": "Darcula",
+			"owner": "service-paradis",
+			"basedOn": {
+				"name": "Jetbrain's Darcula theme"
+			}
+		},
+		"a11y-dark": {
+			"title": "a11y Dark",
+			"owner": "ericwbailey"
+		},
+		"dracula": {
+			"title": "Dracula",
+			"owner": {
+				"name": "Byverdu",
+				"link": "https://github.com/byverdu"
+			}
+		},
+		"synthwave84": {
+			"title": "Synthwave '84",
+			"owner": {
+				"name": "Marc Backes",
+				"link": "https://github.com/themarcba"
+			},
+			"originalOwner": {
+				"name": "Robb Owen",
+				"link": "https://github.com/robb0wen"
+			}
+		},
+		"shades-of-purple": {
+			"title": "Shades of Purple",
+			"owner": {
+				"name": "Ahmad Awais",
+				"link": "https://github.com/ahmadawais"
+			}
+		},
+		"material-dark": {
+			"title": "Material Dark",
+			"owner": "dutchenkoOleg"
+		},
+		"material-light": {
+			"title": "Material Light",
+			"owner": "dutchenkoOleg"
+		},
+		"material-oceanic": {
+			"title": "Material Oceanic",
+			"owner": "dutchenkoOleg"
+		}
+	}
+}
