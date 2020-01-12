@@ -43,6 +43,10 @@ code[class*='language-'] ::selection {
 	background: #a599e9;
 }
 
+pre > code[class*="language-"] {
+	font-size: 1em;
+}
+
 /* Code blocks. */
 pre[class*='language-'] {
 	padding: 2em;
