@@ -83,6 +83,9 @@ Thank you so much for contributing!!
 * [__VS__](themes/prism-vs.css) (by [andrewlock](https://github.com/andrewlock))<br />
 [![VS](screenshots/prism-vs.png)](themes/prism-vs.css)
 
+* [__VS Code Dark+__](themes/prism-vsc-dark-plus.css) (by [tabuckner](https://github.com/tabuckner))<br />
+[![VS](screenshots/prism-vsc-dark-plus.png)](themes/prism-vss-dark-plus.css)
+
 * [__Darcula__](themes/prism-darcula.css) (by [service-paradis](https://github.com/service-paradis), based on Jetbrains Darcula theme)<br />
 [![Darcula](screenshots/prism-darcula.png)](themes/prism-darcula.css)
 
