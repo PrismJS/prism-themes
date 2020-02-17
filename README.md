@@ -28,7 +28,13 @@ The links for your themes have to be `themes/prism-<your theme>.css` for the the
 The screenshot will be created for you by running the following command:
 
 ```bash
-npm ci && npx gulp screenshot
+npm i && npx gulp screenshot
+```
+
+Before making a pull request, you can the following command to verify that all checks pass:
+
+```bash
+npm test
 ```
 
 Thank you so much for contributing!!
@@ -76,6 +82,9 @@ Thank you so much for contributing!!
 
 * [__VS__](themes/prism-vs.css) (by [andrewlock](https://github.com/andrewlock))<br />
 [![VS](screenshots/prism-vs.png)](themes/prism-vs.css)
+
+* [__VS Code Dark+__](themes/prism-vsc-dark-plus.css) (by [tabuckner](https://github.com/tabuckner))<br />
+[![VS](screenshots/prism-vsc-dark-plus.png)](themes/prism-vss-dark-plus.css)
 
 * [__Darcula__](themes/prism-darcula.css) (by [service-paradis](https://github.com/service-paradis), based on Jetbrains Darcula theme)<br />
 [![Darcula](screenshots/prism-darcula.png)](themes/prism-darcula.css)

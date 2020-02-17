@@ -25,7 +25,7 @@ code[class*="language-"]::-moz-selection,
 pre[class*="language-"]::-moz-selection,
 code[class*="language-"] ::-moz-selection,
 pre[class*="language-"] ::-moz-selection {
-	background: #cceae7; 
+	background: #cceae7;
 	color: #263238;
 }
 

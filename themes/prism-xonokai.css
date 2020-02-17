@@ -26,7 +26,7 @@ pre > code[class*="language-"] {
 }
 
 pre[class*="language-"],
-:not(pre)>code[class*="language-"] {
+:not(pre) > code[class*="language-"] {
 	background: #2a2a2a;
 }
 
@@ -35,50 +35,55 @@ pre[class*="language-"] {
 	border-radius: 4px;
 	border: 1px solid #e1e1e8;
 	overflow: auto;
-}
-
-pre[class*="language-"] {
 	position: relative;
 }
+
 pre[class*="language-"] code {
 	white-space: pre;
 	display: block;
 }
 
-:not(pre)>code[class*="language-"] {
+:not(pre) > code[class*="language-"] {
 	padding: 0.15em 0.2em 0.05em;
 	border-radius: .3em;
 	border: 0.13em solid #7a6652;
 	box-shadow: 1px 1px 0.3em -0.1em #000 inset;
 }
+
 .token.namespace {
 	opacity: .7;
 }
+
 .token.comment,
 .token.prolog,
 .token.doctype,
 .token.cdata {
 	color: #6f705e;
 }
+
 .token.operator,
 .token.boolean,
 .token.number {
 	color: #a77afe;
 }
+
 .token.attr-name,
 .token.string {
 	color: #e6d06c;
 }
+
 .token.entity,
 .token.url,
 .language-css .token.string,
 .style .token.string {
 	color: #e6d06c;
 }
+
 .token.selector,
 .token.inserted {
 	color: #a6e22d;
 }
+
 .token.atrule,
 .token.attr-value,
 .token.keyword,
@@ -86,25 +91,31 @@ pre[class*="language-"] code {
 .token.deleted {
 	color: #ef3b7d;
 }
+
 .token.regex,
 .token.statement {
 	color: #76d9e6;
 }
+
 .token.placeholder,
 .token.variable {
 	color: #fff;
 }
+
 .token.important,
 .token.statement,
 .token.bold {
 	font-weight: bold;
 }
+
 .token.punctuation {
 	color: #bebec5;
 }
+
 .token.entity {
 	cursor: help;
 }
+
 .token.italic {
 	font-style: italic;
 }
@@ -112,19 +123,24 @@ pre[class*="language-"] code {
 code.language-markup {
 	color: #f9f9f9;
 }
+
 code.language-markup .token.tag {
 	color: #ef3b7d;
 }
+
 code.language-markup .token.attr-name {
 	color: #a6e22d;
 }
+
 code.language-markup .token.attr-value {
 	color: #e6d06c;
 }
+
 code.language-markup .token.style,
 code.language-markup .token.script {
 	color: #76d9e6;
 }
+
 code.language-markup .token.script .token.keyword {
 	color: #76d9e6;
 }
@@ -134,6 +150,7 @@ pre[class*="language-"][data-line] {
 	position: relative;
 	padding: 1em 0 1em 3em;
 }
+
 pre[data-line] .line-highlight {
 	position: absolute;
 	left: 0;
@@ -145,6 +162,7 @@ pre[data-line] .line-highlight {
 	line-height: inherit;
 	white-space: pre;
 }
+
 pre[data-line] .line-highlight:before,
 pre[data-line] .line-highlight[data-end]:after {
 	content: attr(data-start);
@@ -163,6 +181,7 @@ pre[data-line] .line-highlight[data-end]:after {
 	text-shadow: none;
 	box-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);
 }
+
 pre[data-line] .line-highlight[data-end]:after {
 	content: attr(data-end);
 	top: auto;
