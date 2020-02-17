@@ -109,3 +109,6 @@ Thank you so much for contributing!!
 
 * [__Material Oceanic__](themes/prism-material-oceanic.css) (by [dutchenkoOleg](https://github.com/dutchenkoOleg))<br />
 [![Material Oceanic](screenshots/prism-material-oceanic.png)](themes/prism-material-oceanic.css)
+
+* [__Nord__](themes/prism-nord.css) (originally by [Nord](https://www.nordtheme.com/), adapted by [Zane Hitchcox](https://github.com/zwhitchcox) and [Gabriel Ramos](https://github.com/gabrieluizramos))<br />
+[![Nord](screenshots/prism-nord.png)](themes/prism-nord.css)
