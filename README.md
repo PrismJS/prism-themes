@@ -83,6 +83,9 @@ Thank you so much for contributing!!
 * [__VS__](themes/prism-vs.css) (by [andrewlock](https://github.com/andrewlock))<br />
 [![VS](screenshots/prism-vs.png)](themes/prism-vs.css)
 
+* [__VS Code Dark+__](themes/prism-vsc-dark-plus.css) (by [tabuckner](https://github.com/tabuckner))<br />
+[![VS](screenshots/prism-vsc-dark-plus.png)](themes/prism-vss-dark-plus.css)
+
 * [__Darcula__](themes/prism-darcula.css) (by [service-paradis](https://github.com/service-paradis), based on Jetbrains Darcula theme)<br />
 [![Darcula](screenshots/prism-darcula.png)](themes/prism-darcula.css)
 
@@ -106,6 +109,9 @@ Thank you so much for contributing!!
 
 * [__Material Oceanic__](themes/prism-material-oceanic.css) (by [dutchenkoOleg](https://github.com/dutchenkoOleg))<br />
 [![Material Oceanic](screenshots/prism-material-oceanic.png)](themes/prism-material-oceanic.css)
+
+* [__Nord__](themes/prism-nord.css) (originally by [Nord](https://www.nordtheme.com/), adapted by [Zane Hitchcox](https://github.com/zwhitchcox) and [Gabriel Ramos](https://github.com/gabrieluizramos))<br />
+[![Nord](screenshots/prism-nord.png)](themes/prism-nord.css)
 
 * [__Coy without shadows__](themes/prism-coy-without-shadows.css) (by [RunDevelopment](https://github.com/RunDevelopment), based on Tim Shedor's Coy theme)<br />
 [![Coy without shadows](screenshots/prism-coy-without-shadows.png)](themes/prism-coy-without-shadows.css)
