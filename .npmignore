@@ -1,0 +1,4 @@
+screenshots/
+.stylelintrc.json
+.travis.yml
+gulpfile.js
