@@ -1,6 +1,6 @@
 pre[class*="language-"],
 code[class*="language-"] {
-	color: #9cdcfe;
+	color: #d4d4d4;
 	font-size: 13px;
 	text-shadow: none;
 	font-family: Menlo, Monaco, Consolas, "Andale Mono", "Ubuntu Mono", "Courier New", monospace;
@@ -139,14 +139,12 @@ pre[class*="language-"] {
 	color: #dcdcaa;
 }
 
-.token.regex,
-.token.important {
+.token.regex {
 	color: #d16969;
 }
 
-.token.important,
-.token.bold {
-	font-weight: bold;
+.token.important {
+	color: #569cd6;
 }
 
 .token.italic {
@@ -226,6 +224,17 @@ pre[class*="language-"] {
 /*********************************************************
 * Language Specific
 */
+
+pre[class*="language-javascript"],
+code[class*="language-javascript"],
+pre[class*="language-jsx"],
+code[class*="language-jsx"],
+pre[class*="language-typescript"],
+code[class*="language-typescript"],
+pre[class*="language-tsx"],
+code[class*="language-tsx"] {
+	color: #9cdcfe;
+}
 
 pre[class*="language-css"],
 code[class*="language-css"] {
