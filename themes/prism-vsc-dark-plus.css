@@ -189,6 +189,10 @@ pre[class*="language-"] {
 	color: #d7ba7d;
 }
 
+.token.escape {
+	color: #d7ba7d;
+}
+
 .token.tag {
 	color: #569cd6;
 }
@@ -244,6 +248,10 @@ code[class*="language-css"] {
 pre[class*="language-html"],
 code[class*="language-html"] {
 	color: #d4d4d4;
+}
+
+.language-regex .token.anchor {
+	color: #dcdcaa;
 }
 
 .language-html .token.punctuation {
