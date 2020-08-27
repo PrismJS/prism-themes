@@ -130,7 +130,8 @@ pre[class*="language-"] {
 	color: #569CD6;
 }
 
-.token.keyword.module {
+.token.keyword.module,
+.token.keyword.control-flow {
 	color: #c586c0;
 }
 
