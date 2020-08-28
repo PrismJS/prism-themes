@@ -182,7 +182,9 @@ pre[class*="language-"] {
 }
 
 .token.property,
-.token.variable {
+.token.variable,
+.token.imports .token.maybe-class-name,
+.token.exports .token.maybe-class-name {
 	color: #9cdcfe;
 }
 
