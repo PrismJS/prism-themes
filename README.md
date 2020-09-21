@@ -114,4 +114,4 @@ Thank you so much for contributing!!
 [![Nord](screenshots/prism-nord.png)](themes/prism-nord.css)
 
 * [__Bruha__](themes/prism-bruha.css) (by [catcarbonell](https://github.com/catcarbonell))<br />
-[![Material Oceanic](screenshots/prism-bruha.png)](themes/prism-bruha.css)
+[![Bruha](screenshots/prism-bruha.png)](themes/prism-bruha.css)
