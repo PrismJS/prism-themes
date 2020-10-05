@@ -112,3 +112,6 @@ Thank you so much for contributing!!
 
 * [__Nord__](themes/prism-nord.css) (originally by [Nord](https://www.nordtheme.com/), adapted by [Zane Hitchcox](https://github.com/zwhitchcox) and [Gabriel Ramos](https://github.com/gabrieluizramos))<br />
 [![Nord](screenshots/prism-nord.png)](themes/prism-nord.css)
+
+* [__Bruha__](themes/prism-bruha.css) (by [catcarbonell](https://github.com/catcarbonell))<br />
+[![Bruha](screenshots/prism-bruha.png)](themes/prism-bruha.css)
