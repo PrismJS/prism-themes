@@ -112,3 +112,9 @@ Thank you so much for contributing!!
 
 * [__Nord__](themes/prism-nord.css) (originally by [Nord](https://www.nordtheme.com/), adapted by [Zane Hitchcox](https://github.com/zwhitchcox) and [Gabriel Ramos](https://github.com/gabrieluizramos))<br />
 [![Nord](screenshots/prism-nord.png)](themes/prism-nord.css)
+
+* [__Coldark Cold__](themes/prism-coldark-cold.css) (by [Armand Philippot](https://github.com/ArmandPhilippot), based on [Coldark](https://github.com/ArmandPhilippot/coldark))<br />
+[![Coldark Cold](screenshots/prism-coldark-cold.png)](themes/prism-coldark-cold.css)
+
+* [__Coldark Dark__](themes/prism-coldark-dark.css) (by [Armand Philippot](https://github.com/ArmandPhilippot), based on [Coldark](https://github.com/ArmandPhilippot/coldark))<br />
+[![Coldark Dark](screenshots/prism-coldark-dark.png)](themes/prism-coldark-dark.css)
