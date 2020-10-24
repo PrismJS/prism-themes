@@ -118,3 +118,6 @@ Thank you so much for contributing!!
 
 * [__Coldark Dark__](themes/prism-coldark-dark.css) (by [Armand Philippot](https://github.com/ArmandPhilippot), based on [Coldark](https://github.com/ArmandPhilippot/coldark))<br />
 [![Coldark Dark](screenshots/prism-coldark-dark.png)](themes/prism-coldark-dark.css)
+
+* [__Coy without shadows__](themes/prism-coy-without-shadows.css) (by [RunDevelopment](https://github.com/RunDevelopment), based on Tim Shedor's Coy theme)<br />
+[![Coy without shadows](screenshots/prism-coy-without-shadows.png)](themes/prism-coy-without-shadows.css)
