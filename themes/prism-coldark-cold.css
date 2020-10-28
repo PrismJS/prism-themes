@@ -30,14 +30,14 @@ pre[class*="language-"]::-moz-selection,
 pre[class*="language-"] ::-moz-selection,
 code[class*="language-"]::-moz-selection,
 code[class*="language-"] ::-moz-selection {
-	background: #ccd6e4;
+	background: #8da1b9;
 }
 
 pre[class*="language-"]::selection,
 pre[class*="language-"] ::selection,
 code[class*="language-"]::selection,
 code[class*="language-"] ::selection {
-	background: #ccd6e4;
+	background: #8da1b9;
 }
 
 /* Code blocks */
@@ -49,7 +49,7 @@ pre[class*="language-"] {
 
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-	background: #e3e9f2;
+	background: #e3eaf2;
 }
 
 /* Inline code */
@@ -63,27 +63,27 @@ pre[class*="language-"] {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-	color: #304259;
-	font-style: italic;
+	color: #3c526d;
 }
 
 .token.punctuation {
 	color: #111b27;
 }
 
-.token.selector,
-.token.tag {
-	color: #007474;
+.token.delimiter.important,
+.token.selector .parent,
+.token.tag,
+.token.tag .token.punctuation {
+	color: #006d6d;
 }
 
 .token.attr-name,
 .token.boolean,
+.token.boolean.important,
 .token.number,
 .token.constant,
-.token.pseudo-class,
-.token.pseudo-element,
 .token.selector .token.attribute {
-	color: #7d6600;
+	color: #755f00;
 }
 
 .token.class-name,
@@ -92,7 +92,7 @@ pre[class*="language-"] {
 .token.property,
 .token.property-access,
 .token.variable {
-	color: #005c99;
+	color: #005a8e;
 }
 
 .token.attr-value,
@@ -101,38 +101,41 @@ pre[class*="language-"] {
 .token.selector .token.value,
 .token.string,
 .token.string .token.url-link {
-	color: #237800;
+	color: #116b00;
 }
 
 .token.builtin,
 .token.keyword-array,
 .token.package,
 .token.regex {
-	color: #b800b8;
+	color: #af00af;
 }
 
 .token.function,
 .token.selector .token.class,
 .token.selector .token.id {
-	color: #8600c6;
+	color: #7c00aa;
 }
 
 .token.atrule .token.rule,
 .token.combinator,
 .token.keyword,
 .token.operator,
+.token.pseudo-class,
+.token.pseudo-element,
+.token.selector,
 .token.unit {
-	color: #aa4d00;
+	color: #a04900;
 }
 
 .token.deleted,
 .token.important {
-	color: #bf0100;
+	color: #c70100;
 }
 
 .token.keyword-this,
 .token.this {
-	color: #005c99;
+	color: #005a8e;
 }
 
 .token.important,
@@ -140,6 +143,10 @@ pre[class*="language-"] {
 .token.this,
 .token.bold {
 	font-weight: bold;
+}
+
+.token.delimiter.important {
+	font-weight: inherit;
 }
 
 .token.italic {
@@ -152,24 +159,32 @@ pre[class*="language-"] {
 
 .language-markdown .token.title,
 .language-markdown .token.title .token.punctuation {
-	color: #005c99;
+	color: #005a8e;
 	font-weight: bold;
 }
 
+.language-markdown .token.blockquote.punctuation {
+	color: #af00af;
+}
+
 .language-markdown .token.code {
-	color: #007474;
+	color: #006d6d;
+}
+
+.language-markdown .token.hr.punctuation {
+	color: #005a8e;
 }
 
 .language-markdown .token.url > .token.content {
-	color: #237800;
+	color: #116b00;
 }
 
 .language-markdown .token.url-link {
-	color: #7d6600;
+	color: #755f00;
 }
 
 .language-markdown .token.list.punctuation {
-	color: #b800b8;
+	color: #af00af;
 }
 
 .language-markdown .token.table-header {
@@ -180,6 +195,10 @@ pre[class*="language-"] {
 	color: #111b27;
 }
 
+.language-scss .token.variable {
+	color: #006d6d;
+}
+
 /* overrides color-values for the Show Invisibles plugin
  * https://prismjs.com/plugins/show-invisibles/
  */
@@ -187,7 +206,7 @@ pre[class*="language-"] {
 .token.cr:before,
 .token.lf:before,
 .token.space:before {
-	color: #304259;
+	color: #3c526d;
 }
 
 /* overrides color-values for the Toolbar plugin
@@ -195,55 +214,55 @@ pre[class*="language-"] {
  */
 div.code-toolbar > .toolbar a,
 div.code-toolbar > .toolbar button {
-	color: #e3e9f2;
-	background: #005c99;
+	color: #e3eaf2;
+	background: #005a8e;
 }
 
 div.code-toolbar > .toolbar a:hover,
 div.code-toolbar > .toolbar a:focus,
 div.code-toolbar > .toolbar button:hover,
 div.code-toolbar > .toolbar button:focus {
-	color: #e3e9f2;
-	background: #005c99da;
+	color: #e3eaf2;
+	background: #005a8eda;
 	text-decoration: none;
 }
 
 div.code-toolbar > .toolbar span,
 div.code-toolbar > .toolbar span:hover,
 div.code-toolbar > .toolbar span:focus {
-	color: #e3e9f2;
-	background: #304259;
+	color: #e3eaf2;
+	background: #3c526d;
 }
 
 /* overrides color-values for the Line Highlight plugin
  * http://prismjs.com/plugins/line-highlight/
  */
 .line-highlight {
-	background: #3042591f;
-	background: linear-gradient(to right, #3042591f 70%, #30425915);
+	background: #8da1b92f;
+	background: linear-gradient(to right, #8da1b92f 70%, #8da1b925);
 }
 
 .line-highlight:before,
 .line-highlight[data-end]:after {
-	background-color: #304259;
-	color: #e3e9f2;
-	box-shadow: 0 1px #ccd6e4;
+	background-color: #3c526d;
+	color: #e3eaf2;
+	box-shadow: 0 1px #8da1b9;
 }
 
 pre[id].linkable-line-numbers span.line-numbers-rows > span:hover:before {
-	background-color: #3042591f;
+	background-color: #3c526d1f;
 }
 
 /* overrides color-values for the Line Numbers plugin
  * http://prismjs.com/plugins/line-numbers/
  */
 .line-numbers .line-numbers-rows {
-	border-right: 1px solid #111b271f;
-	background: #d8e0ebda;
+	border-right: 1px solid #8da1b97a;
+	background: #d0dae77a;
 }
 
 .line-numbers-rows > span:before {
-	color: #111b2796;
+	color: #3c526dda;
 }
 
 /* overrides color-values for the Match Braces plugin
@@ -252,25 +271,25 @@ pre[id].linkable-line-numbers span.line-numbers-rows > span:hover:before {
 .rainbow-braces .token.punctuation.brace-level-1,
 .rainbow-braces .token.punctuation.brace-level-5,
 .rainbow-braces .token.punctuation.brace-level-9 {
-	color: #7d6600;
+	color: #755f00;
 }
 
 .rainbow-braces .token.punctuation.brace-level-2,
 .rainbow-braces .token.punctuation.brace-level-6,
 .rainbow-braces .token.punctuation.brace-level-10 {
-	color: #b800b8;
+	color: #af00af;
 }
 
 .rainbow-braces .token.punctuation.brace-level-3,
 .rainbow-braces .token.punctuation.brace-level-7,
 .rainbow-braces .token.punctuation.brace-level-11 {
-	color: #005c99;
+	color: #005a8e;
 }
 
 .rainbow-braces .token.punctuation.brace-level-4,
 .rainbow-braces .token.punctuation.brace-level-8,
 .rainbow-braces .token.punctuation.brace-level-12 {
-	color: #8600c6;
+	color: #7c00aa;
 }
 
 /* overrides color-values for the Diff Highlight plugin
@@ -278,21 +297,21 @@ pre[id].linkable-line-numbers span.line-numbers-rows > span:hover:before {
  */
 pre.diff-highlight > code .token.deleted:not(.prefix),
 pre > code.diff-highlight .token.deleted:not(.prefix) {
-	background-color: #bf01001f;
+	background-color: #c701001f;
 }
 
 pre.diff-highlight > code .token.inserted:not(.prefix),
 pre > code.diff-highlight .token.inserted:not(.prefix) {
-	background-color: #2378001f;
+	background-color: #116b001f;
 }
 
 /* overrides color-values for the Command Line plugin
  * https://prismjs.com/plugins/command-line/
  */
 .command-line-prompt {
-	border-right: 1px solid #111b271f;
+	border-right: 1px solid #8da1b97a;
 }
 
 .command-line-prompt > span:before {
-	color: #111b2796;
+	color: #3c526dda;
 }
