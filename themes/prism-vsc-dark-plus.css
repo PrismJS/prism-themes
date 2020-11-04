@@ -173,7 +173,7 @@ pre[class*="language-"] {
 	color: #9cdcfe;
 }
 
-.token.punctuation.interpolation-punctuation {
+.token.interpolation.interpolation-punctuation {
 	color: #569cd6;
 }
 
