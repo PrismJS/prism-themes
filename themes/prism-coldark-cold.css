@@ -130,7 +130,7 @@ pre[class*="language-"] {
 
 .token.deleted,
 .token.important {
-	color: #c70100;
+	color: #c22f2e;
 }
 
 .token.keyword-this,
@@ -297,7 +297,7 @@ pre[id].linkable-line-numbers span.line-numbers-rows > span:hover:before {
  */
 pre.diff-highlight > code .token.deleted:not(.prefix),
 pre > code.diff-highlight .token.deleted:not(.prefix) {
-	background-color: #c701001f;
+	background-color: #c22f2e1f;
 }
 
 pre.diff-highlight > code .token.inserted:not(.prefix),
