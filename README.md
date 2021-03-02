@@ -121,3 +121,6 @@ Thank you so much for contributing!!
 
 * [__Coy without shadows__](themes/prism-coy-without-shadows.css) (by [RunDevelopment](https://github.com/RunDevelopment), based on Tim Shedor's Coy theme)<br />
 [![Coy without shadows](screenshots/prism-coy-without-shadows.png)](themes/prism-coy-without-shadows.css)
+
+* [__Gruvbox Dark__](themes/prism-gruvbox-dark.css) (by [Azat S.](https://github.com/azat-io))<br />
+[![Gruvbox Dark](screenshots/prism-gruvbox-dark.png)](themes/prism-gruvbox-dark.css)
