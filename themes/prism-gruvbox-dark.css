@@ -152,7 +152,3 @@ pre[class*="language-"] {
 .token.deleted {
 	background: var(--red);
 }
-
-.token.deleted {
-	background: var(--red);
-}
