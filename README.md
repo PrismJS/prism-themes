@@ -124,3 +124,6 @@ Thank you so much for contributing!!
 
 * [__Gruvbox Dark__](themes/prism-gruvbox-dark.css) (by [Azat S.](https://github.com/azat-io))<br />
 [![Gruvbox Dark](screenshots/prism-gruvbox-dark.png)](themes/prism-gruvbox-dark.css)
+
+* [__Lucario__](themes/prism-lucario.css) (by [Christopher Kapic](https://github.com/christopher-kapic), based on [Raphael Amorim's](https://github.com/raphamorim) [Lucario Theme](https://github.com/raphamorim/lucario))<br />
+[![Lucario](screenshots/prism-lucario.png)](themes/prism-lucario.png)
