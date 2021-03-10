@@ -2,7 +2,6 @@
   "name": "prism-themes",
   "version": "1.5.0",
   "description": "Additional themes for the Prism syntax highlighting library.",
-  "main": "README.md",
   "scripts": {
     "lint": "stylelint \"themes/*.css\"",
     "lint-fix": "stylelint \"themes/*.css\" --fix",
