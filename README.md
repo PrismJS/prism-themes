@@ -1,5 +1,8 @@
 # Prism themes
 
+[![Build Status](https://github.com/PrismJS/prism-themes/workflows/CI/badge.svg)](https://github.com/PrismJS/prism-themes/actions)
+[![npm](https://img.shields.io/npm/dw/prism-themes.svg)](https://www.npmjs.com/package/prism-themes)
+
 This repository lists a selection of additional themes for the [Prism syntax highlighting library](http://prismjs.com/).
 
 ## How to use a theme
