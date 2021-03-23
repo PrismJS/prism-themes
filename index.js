@@ -1,5 +1,5 @@
 const path = require('path')
 
 module.exports = {
-  folderPath: path.resolve(__dirname, 'themes')
+	themesDirectory: path.resolve(__dirname, 'themes')
 }
