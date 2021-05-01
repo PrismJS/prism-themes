@@ -129,4 +129,7 @@ Thank you so much for contributing!!
 [![Gruvbox Dark](screenshots/prism-gruvbox-dark.png)](themes/prism-gruvbox-dark.css)
 
 * [__Lucario__](themes/prism-lucario.css) (by [Christopher Kapic](https://github.com/christopher-kapic), based on [Raphael Amorim's](https://github.com/raphamorim) [Lucario Theme](https://github.com/raphamorim/lucario))<br />
-[![Lucario](screenshots/prism-lucario.png)](themes/prism-lucario.png)
+[![Lucario](screenshots/prism-lucario.png)](themes/prism-lucario.css)
+
+* [__Night Owl__](themes/prism-night-owl.css) (by [Souvik Mandal](https://github.com/SimpleIndian), based on [Sarah Drasner's](https://github.com/sdras) [Night owl Theme](https://github.com/sdras/night-owl-vscode-theme))<br />
+[![Night Owl](screenshots/prism-night-owl.png)](themes/prism-night-owl.css)
