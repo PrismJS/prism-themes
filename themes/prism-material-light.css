@@ -7,7 +7,7 @@ pre[class*="language-"] {
 	word-wrap: normal;
 	color: #90a4ae;
 	background: #fafafa;
-	font-family: Roboto Mono, monospace;
+	font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
 	font-size: 1em;
 	line-height: 1.5em;
 
