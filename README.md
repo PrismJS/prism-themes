@@ -133,3 +133,6 @@ Thank you so much for contributing!!
 
 * [__Night Owl__](themes/prism-night-owl.css) (by [Souvik Mandal](https://github.com/SimpleIndian), based on [Sarah Drasner's](https://github.com/sdras) [Night owl Theme](https://github.com/sdras/night-owl-vscode-theme))<br />
 [![Night Owl](screenshots/prism-night-owl.png)](themes/prism-night-owl.css)
+
+* [__Holi Theme__](themes/prism-holi-theme.css) (by [Ayush Saini](https://github.com/AyushSaini00), based on [Holi Theme for VS Code](https://github.com/AyushSaini00/holi-theme))<br />
+[![Holi Theme](screenshots/prism-holi-theme.png)](themes/prism-holi-theme.css)
