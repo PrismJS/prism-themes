@@ -38,8 +38,8 @@ pre[class*='language-']::selection,
 pre[class*='language-'] ::selection,
 code[class*='language-']::selection,
 code[class*='language-'] ::selection {
-	color: #d6e7ff;
-	background: #030314;
+	color: inherit;
+	background: #1d3b54;
 	text-shadow: none;
 }
 
