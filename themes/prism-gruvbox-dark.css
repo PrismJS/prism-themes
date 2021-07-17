@@ -33,16 +33,16 @@ pre[class*="language-"]::-moz-selection,
 pre[class*="language-"] ::-moz-selection,
 code[class*="language-"]::-moz-selection,
 code[class*="language-"] ::-moz-selection {
-	color: #fff;
-	background: #f05e23;
+	color: #fbf1c7; /* fg0 */
+	background: #7c6f64; /* bg4 */
 }
 
 pre[class*="language-"]::selection,
 pre[class*="language-"] ::selection,
 code[class*="language-"]::selection,
 code[class*="language-"] ::selection {
-	color: #fff;
-	background: #f05e23;
+	color: #fbf1c7; /* fg0 */
+	background: #7c6f64; /* bg4 */
 }
 
 /* Code blocks */
