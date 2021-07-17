@@ -1,16 +1,16 @@
 /**
- * Gruvbox dark theme
+ * Gruvbox light theme
  *
- * Adapted from a theme based on:
- * Vim Gruvbox dark Theme (https://github.com/morhetz/gruvbox)
+ * Based on Gruvbox: https://github.com/morhetz/gruvbox
+ * Adapted from PrismJS gruvbox-dark theme: https://github.com/schnerring/prism-themes/blob/master/themes/prism-gruvbox-dark.css
  *
- * @author Azat S. <to@azat.io>
+ * @author Michael Schnerring (https://schnerring.net)
  * @version 1.0
  */
 
 code[class*="language-"],
 pre[class*="language-"] {
-	color: #ebdbb2; /* fg1 / fg */
+	color: #3c3836; /* fg1 / fg */
 	font-family: Consolas, Monaco, "Andale Mono", monospace;
 	direction: ltr;
 	text-align: left;
@@ -33,16 +33,16 @@ pre[class*="language-"]::-moz-selection,
 pre[class*="language-"] ::-moz-selection,
 code[class*="language-"]::-moz-selection,
 code[class*="language-"] ::-moz-selection {
-	color: #fbf1c7; /* fg0 */
-	background: #7c6f64; /* bg4 */
+	color: #282828; /* fg0 */
+	background: #a89984; /* bg4 */
 }
 
 pre[class*="language-"]::selection,
 pre[class*="language-"] ::selection,
 code[class*="language-"]::selection,
 code[class*="language-"] ::selection {
-	color: #fbf1c7; /* fg0 */
-	background: #7c6f64; /* bg4 */
+	color: #282828; /* fg0 */
+	background: #a89984; /* bg4 */
 }
 
 /* Code blocks */
@@ -54,7 +54,7 @@ pre[class*="language-"] {
 
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-	background: #1d2021; /* bg0_h */
+	background: #f9f5d7; /* bg0_h */
 }
 
 /* Inline code */
@@ -66,7 +66,7 @@ pre[class*="language-"] {
 .token.comment,
 .token.prolog,
 .token.cdata {
-	color: #a89984; /* fg4 / gray1 */
+	color: #7c6f64; /* fg4 / gray1 */
 }
 
 .token.delimiter,
@@ -75,55 +75,55 @@ pre[class*="language-"] {
 .token.selector,
 .token.important,
 .token.atrule {
-	color: #fb4934; /* red2 */
+	color: #9d0006; /* red2 */
 }
 
 .token.operator,
 .token.punctuation,
 .token.attr-name {
-	color: #a89984; /* fg4 / gray1 */
+	color: #7c6f64; /* fg4 / gray1 */
 }
 
 .token.tag,
 .token.tag .punctuation,
 .token.doctype,
 .token.builtin {
-	color: #fabd2f; /* yellow2 */
+	color: #b57614; /* yellow2 */
 }
 
 .token.entity,
 .token.number,
 .token.symbol {
-	color: #d3869b; /* purple2 */
+	color: #8f3f71; /* purple2 */
 }
 
 .token.property,
 .token.constant,
 .token.variable {
-	color: #fb4934; /* red2 */
+	color: #9d0006; /* red2 */
 }
 
 .token.string,
 .token.char {
-	color: #b8bb26; /* green2 */
+	color: #797403; /* green2 */
 }
 
 .token.attr-value,
 .token.attr-value .punctuation {
-	color: #a89984; /* fg4 / gray1 */
+	color: #7c6f64; /* fg4 / gray1 */
 }
 
 .token.url {
-	color: #b8bb26; /* green2 */
+	color: #797403; /* green2 */
 	text-decoration: underline;
 }
 
 .token.function {
-	color: #fabd2f; /* yellow2 */
+	color: #b57614; /* yellow2 */
 }
 
 .token.regex {
-	background: #b8bb26; /* green2 */
+	background: #797403; /* green2 */
 }
 
 .token.bold {
@@ -135,9 +135,9 @@ pre[class*="language-"] {
 }
 
 .token.inserted {
-	background: #a89984; /* fg4 / gray1 */
+	background: #7c6f64; /* fg4 / gray1 */
 }
 
 .token.deleted {
-	background: #fb4934; /* red2 */
+	background: #9d0006; /* red2 */
 }
