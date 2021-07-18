@@ -89,6 +89,21 @@ async function checkAvailableThemes() {
 	}
 }
 
+
+const ISSUE_RE = /#(\d+)(?![\d\]])/g;
+const ISSUE_SUB = '[#$1](https://github.com/PrismJS/prism-themes/issues/$1)';
+const CHANGELOG = 'CHANGELOG.md';
+
+async function linkify() {
+	let changelog = await fs.readFile(CHANGELOG, 'utf-8');
+
+	changelog = changelog.replace(ISSUE_RE, ISSUE_SUB);
+
+	await fs.writeFile(CHANGELOG, changelog, 'utf-8');
+}
+
+
 exports.screenshot = screenshotMissingThemes;
 exports['screenshot-all'] = screenshotAllThemes;
-exports.check = parallel(checkScreenshots, checkAvailableThemes)
+exports.check = parallel(checkScreenshots, checkAvailableThemes);
+exports.linkify = linkify;
