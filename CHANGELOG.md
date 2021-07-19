@@ -1,6 +1,18 @@
 # Prism Themes Changelog
 
 
+## 1.8.0 (2021-07-19)
+
+### New Themes
+
+* Holi Theme ([#121](https://github.com/PrismJS/prism-themes/issues/121))
+* Gruvbox Light ([#124](https://github.com/PrismJS/prism-themes/issues/124))
+
+### Improved
+
+* Added changelog ([#125](https://github.com/PrismJS/prism-themes/issues/125))
+
+
 ## 1.7.0 (2021-05-04)
 
 ### New Themes
