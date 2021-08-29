@@ -141,5 +141,5 @@ Thank you so much for contributing!!
 [![Holi Theme](screenshots/prism-holi-theme.png)](themes/prism-holi-theme.css)
 
 
-* [__Z-Touch__](themes/z-touch.css) (by [Zeel Codder](https://github.com/zeel-codder))<br />
-[![Z-Touch](screenshots/z-touch.png)](themes/z-touch.css)
+* [__Z-Touch__](themes/prism-z-touch.css) (by [Zeel Codder](https://github.com/zeel-codder))<br />
+[![Z-Touch](screenshots/z-touch.png)](themes/prism-z-touch.css)
