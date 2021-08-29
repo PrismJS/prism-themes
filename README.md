@@ -139,3 +139,6 @@ Thank you so much for contributing!!
 
 * [__Holi Theme__](themes/prism-holi-theme.css) (by [Ayush Saini](https://github.com/AyushSaini00), based on [Holi Theme for VS Code](https://github.com/AyushSaini00/holi-theme))<br />
 [![Holi Theme](screenshots/prism-holi-theme.png)](themes/prism-holi-theme.css)
+
+* [__Z-Touch__](themes/prism-z-touch.css) (by [Zeel Codder](https://github.com/zeel-codder))<br />
+[![Z-Touch](screenshots/prism-z-touch.png)](themes/prism-z-touch.css)
