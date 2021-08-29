@@ -142,4 +142,4 @@ Thank you so much for contributing!!
 
 
 * [__Z-Touch__](themes/prism-z-touch.css) (by [Zeel Codder](https://github.com/zeel-codder))<br />
-[![Z-Touch](screenshots/z-touch.png)](themes/prism-z-touch.css)
+[![Z-Touch](screenshots/prism-z-touch.png)](themes/prism-z-touch.css)

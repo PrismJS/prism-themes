@@ -5,31 +5,42 @@
  *
  */
 code[class*="language-"],
-pre[class*="language-"]{
+pre[class*="language-"] {
 	color: #22da17;
-	font-family:monospace;
+	font-family: monospace;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
 	word-break: normal;
 	word-wrap: normal;
-	line-height: 2;
-	font-size: 1em;
-
 	-moz-tab-size: 4;
 	-o-tab-size: 4;
 	tab-size: 4;
-
 	-webkit-hyphens: none;
 	-moz-hyphens: none;
 	-ms-hyphens: none;
 	hyphens: none;
 	line-height: 25px;
-    font-size: 18px;
-    margin: 5px 0;
+	font-size: 18px;
+	margin: 5px 0;
 }
-pre[class*="language-"] *{
-	font-family:monospace;
+
+pre[class*="language-"] * {
+	font-family: monospace;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	color: white;
+	background: #0a143c;
+	padding: 22px;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: 0.5em 0;
+	overflow: auto;
 }
 
 pre[class*="language-"]::-moz-selection,
@@ -53,20 +64,6 @@ code[class*="language-"] ::selection {
 	pre[class*="language-"] {
 		text-shadow: none;
 	}
-}
-
-/* Code blocks */
-pre[class*="language-"] {
-	padding: 1em;
-	margin: 0.5em 0;
-	overflow: auto;
-}
-
-:not(pre) > code[class*="language-"],
-pre[class*="language-"] {
-	color: white;
-	background: #0a143c;
-	padding: 22px;
 }
 
 :not(pre) > code[class*="language-"] {
@@ -161,4 +158,3 @@ pre[class*="language-"] {
 .token.italic {
 	font-style: italic;
 }
-
