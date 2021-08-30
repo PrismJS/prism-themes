@@ -142,3 +142,6 @@ Thank you so much for contributing!!
 
 * [__Z-Touch__](themes/prism-z-touch.css) (by [Zeel Codder](https://github.com/zeel-codder))<br />
 [![Z-Touch](screenshots/prism-z-touch.png)](themes/prism-z-touch.css)
+
+* [__Solarized Dark Atom__](themes/prism-holi-theme.css) (by [Pranay Chauhan](https://github.com/PranayChauhan2516), based on [Solarized Dark Theme by Atom](https://github.com/atom/solarized-dark-syntax))<br />
+[![Solarized Dark Atom](screenshots/prism-solarized-dark-atom.png)](themes/prism-solarized-dark-atom.css)
