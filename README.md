@@ -145,3 +145,6 @@ Thank you so much for contributing!!
 
 * [__Solarized Dark Atom__](themes/prism-holi-theme.css) (by [Pranay Chauhan](https://github.com/PranayChauhan2516), based on [Solarized Dark Theme by Atom](https://github.com/atom/solarized-dark-syntax))<br />
 [![Solarized Dark Atom](screenshots/prism-solarized-dark-atom.png)](themes/prism-solarized-dark-atom.css)
+
+* [__One Dark__](themes/prism-one-dark.css) (by [Hoon Wei Ting](https://github.com/hoonweiting), based on [Atom's One Dark Syntax](https://github.com/atom/atom/tree/master/packages/one-dark-syntax))<br />
+[![One Dark](screenshots/prism-one-dark.png)](themes/prism-one-dark.css)
