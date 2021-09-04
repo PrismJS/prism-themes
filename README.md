@@ -148,3 +148,6 @@ Thank you so much for contributing!!
 
 * [__One Dark__](themes/prism-one-dark.css) (by [Hoon Wei Ting](https://github.com/hoonweiting), based on [Atom's One Dark Syntax](https://github.com/atom/atom/tree/master/packages/one-dark-syntax))<br />
 [![One Dark](screenshots/prism-one-dark.png)](themes/prism-one-dark.css)
+
+* [__One Light__](themes/prism-one-light.css) (by [Hoon Wei Ting](https://github.com/hoonweiting), based on [Atom's One Light Syntax](https://github.com/atom/atom/tree/master/packages/one-light-syntax))<br />
+[![One Light](screenshots/prism-one-light.png)](themes/prism-one-light.css)
