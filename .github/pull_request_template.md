@@ -1,9 +1,3 @@
----
-name: 🎅 New Theme
-about: Add New Theme
-labels: "newtheme"
----
-
 ## 🎅 New Theme
 
 ### Enter Your Theme Name 
