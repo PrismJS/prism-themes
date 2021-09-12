@@ -25,6 +25,7 @@
  * -- From syntax-variables.less
  * @syntax-selection-color: #3e4451
  * @syntax-gutter-background-color-selected: #3a3f4b
+ * @syntax-cursor-line: #99bbff0c
  */
 
 code[class*="language-"],
@@ -285,6 +286,24 @@ div.code-toolbar > .toolbar > .toolbar-item > span:hover,
 div.code-toolbar > .toolbar > .toolbar-item > span:focus {
 	background: #3e4451;
 	color: #abb2bf;
+}
+
+/* Line Highlight plugin overrides */
+.line-highlight {
+	background: #99bbff0c;
+}
+
+.line-highlight:before,
+.line-highlight[data-end]:after {
+	background: #3a3f4b;
+	color: #abb2bf;
+	padding: 0.1em 0.6em;
+	border-radius: 0.3em;
+	box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.2); /* same as Toolbar plugin default */
+}
+
+pre[id].linkable-line-numbers span.line-numbers-rows > span:hover:before {
+	background-color: #99bbff0c;
 }
 
 /* Line Numbers plugin overrides */
