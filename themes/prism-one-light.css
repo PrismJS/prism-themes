@@ -19,7 +19,7 @@
  * @syntax-fg: #383a42
  * @syntax-bg: #fafafa
  * @syntax-gutter: #9d9d9f
- * @syntax-guide: #383a4233
+ * @syntax-guide: #383a4240
  * @syntax-accent: #526eff
  * @syntax-selection-color: #e5e5e6
  */
@@ -236,4 +236,12 @@ pre[class*="language-"] {
 
 .token.namespace {
 	opacity: 0.8;
+}
+
+/* Show Invisibles plugin overrides */
+.token.tab:not(:empty):before,
+.token.cr:before,
+.token.lf:before,
+.token.space:before {
+	color: #383a4240;
 }

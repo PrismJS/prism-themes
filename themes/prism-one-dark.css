@@ -248,3 +248,11 @@ pre[class*="language-"] {
 .token.namespace {
 	opacity: 0.8;
 }
+
+/* Show Invisibles plugin overrides */
+.token.tab:not(:empty):before,
+.token.cr:before,
+.token.lf:before,
+.token.space:before {
+	color: #abb2bf26;
+}
