@@ -36,11 +36,9 @@ pre[class*="language-"] {
 	word-spacing: normal;
 	word-break: normal;
 	line-height: 1.5;
-
 	-moz-tab-size: 2;
 	-o-tab-size: 2;
 	tab-size: 2;
-
 	-webkit-hyphens: none;
 	-moz-hyphens: none;
 	-ms-hyphens: none;
@@ -63,15 +61,15 @@ pre[class*="language-"] *::selection {
 /* Code blocks */
 pre[class*="language-"] {
 	padding: 1em;
-	margin: .5em 0;
+	margin: 0.5em 0;
 	overflow: auto;
 	border-radius: 0.3em;
 }
 
 /* Inline code */
 :not(pre) > code[class*="language-"] {
-	padding: .2em .3em;
-	border-radius: .3em;
+	padding: 0.2em 0.3em;
+	border-radius: 0.3em;
 	white-space: normal;
 }
 
@@ -248,5 +246,5 @@ pre[class*="language-"] {
 }
 
 .token.namespace {
-	opacity: .8;
+	opacity: 0.8;
 }
