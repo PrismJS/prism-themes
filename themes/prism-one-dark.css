@@ -344,3 +344,12 @@ pre > code.diff-highlight .token.inserted:not(.prefix)::selection,
 pre > code.diff-highlight .token.inserted:not(.prefix) *::selection {
 	background-color: #38e06240;
 }
+
+/* Command Line plugin overrides */
+.command-line-prompt {
+	border-right: 1px solid #abb2bf26;
+}
+
+.command-line-prompt > span:before {
+	color: #abb2bf; /* would prefer @syntax-gutter but it fails WCAG AA */
+}
