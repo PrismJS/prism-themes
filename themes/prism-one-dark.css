@@ -52,12 +52,14 @@ pre[class*="language-"] {
 code[class*="language-"]::-moz-selection,
 pre[class*="language-"] *::-moz-selection {
 	background: #3e4451;
+	color: inherit;
 	text-shadow: none;
 }
 
 code[class*="language-"]::selection,
 pre[class*="language-"] *::selection {
 	background: #3e4451;
+	color: inherit;
 	text-shadow: none;
 }
 

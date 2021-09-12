@@ -51,11 +51,13 @@ pre[class*="language-"] {
 code[class*="language-"]::-moz-selection,
 pre[class*="language-"] *::-moz-selection {
 	background: #e5e5e6;
+	color: inherit;
 }
 
 code[class*="language-"]::selection,
 pre[class*="language-"] *::selection {
 	background: #e5e5e6;
+	color: inherit;
 }
 
 /* Code blocks */
