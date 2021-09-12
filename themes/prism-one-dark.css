@@ -255,4 +255,5 @@ pre[class*="language-"] {
 .token.lf:before,
 .token.space:before {
 	color: #abb2bf26;
+	text-shadow: none;
 }
