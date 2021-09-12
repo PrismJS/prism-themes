@@ -284,3 +284,29 @@ div.code-toolbar > .toolbar > .toolbar-item > span:focus {
 	background: #3e4451;
 	color: #abb2bf;
 }
+
+/* Match Braces plugin overrides */
+/* Note: Outline colour is inherited from the braces */
+.rainbow-braces .token.punctuation.brace-level-1,
+.rainbow-braces .token.punctuation.brace-level-5,
+.rainbow-braces .token.punctuation.brace-level-9 {
+	color: #e06c75;
+}
+
+.rainbow-braces .token.punctuation.brace-level-2,
+.rainbow-braces .token.punctuation.brace-level-6,
+.rainbow-braces .token.punctuation.brace-level-10 {
+	color: #98c379;
+}
+
+.rainbow-braces .token.punctuation.brace-level-3,
+.rainbow-braces .token.punctuation.brace-level-7,
+.rainbow-braces .token.punctuation.brace-level-11 {
+	color: #61afef;
+}
+
+.rainbow-braces .token.punctuation.brace-level-4,
+.rainbow-braces .token.punctuation.brace-level-8,
+.rainbow-braces .token.punctuation.brace-level-12 {
+	color: #c678dd;
+}
