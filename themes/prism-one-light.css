@@ -371,3 +371,41 @@ pre > code.diff-highlight .token.inserted:not(.prefix) *::selection {
 .command-line-prompt > span:before {
 	color: #383a42; /* would prefer @syntax-gutter but it fails WCAG AA */
 }
+
+/* Previewers plugin overrides */
+/* Based on https://github.com/atom-community/atom-ide-datatip/blob/master/styles/atom-ide-datatips.less and https://github.com/atom/atom/blob/master/packages/one-light-ui */
+.prism-previewer:before,
+.prism-previewer-gradient div {
+	border-radius: 0.3em;
+	border: 5px solid #f2f2f2;
+}
+
+.prism-previewer:after {
+	border-top-color: #f2f2f2;
+}
+
+.prism-previewer-flipped.after {
+	border-bottom-color: #f2f2f2;
+}
+
+.prism-previewer-angle:before,
+.prism-previewer-time:before,
+.prism-previewer-easing {
+	background: #fff;
+}
+
+.prism-previewer-angle circle,
+.prism-previewer-time circle {
+	stroke: #383a42;
+	stroke-opacity: 1;
+}
+
+.prism-previewer-easing circle,
+.prism-previewer-easing path,
+.prism-previewer-easing line {
+	stroke: #383a42;
+}
+
+.prism-previewer-easing circle {
+	fill: transparent;
+}
