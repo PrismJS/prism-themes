@@ -128,7 +128,6 @@ pre[class*="language-"] {
 
 .token.url {
 	color: #0184bc;
-	text-decoration: underline;
 }
 
 /* HTML overrides */
@@ -144,10 +143,6 @@ pre[class*="language-"] {
 
 .language-css .token.property {
 	color: #383a42;
-}
-
-.language-css .token.url {
-	text-decoration: none;
 }
 
 .language-css .token.function,
@@ -187,18 +182,15 @@ pre[class*="language-"] {
 .language-markdown .token.url > .token.operator,
 .language-markdown .token.url-reference.url > .token.string {
 	color: #383a42;
-	text-decoration: none;
 }
 
 .language-markdown .token.url > .token.content {
 	color: #4078f2;
-	text-decoration: none;
 }
 
 .language-markdown .token.url > .token.url,
 .language-markdown .token.url-reference.url {
 	color: #0184bc;
-	text-decoration: underline;
 }
 
 .language-markdown .token.blockquote.punctuation,
