@@ -349,10 +349,13 @@ pre > code.diff-highlight .token.deleted:not(.prefix) {
 
 pre.diff-highlight > code .token.deleted:not(.prefix)::-moz-selection,
 pre.diff-highlight > code .token.deleted:not(.prefix) *::-moz-selection,
+pre > code.diff-highlight .token.deleted:not(.prefix)::-moz-selection,
+pre > code.diff-highlight .token.deleted:not(.prefix) *::-moz-selection {
+	background-color: #fb566940;
+}
+
 pre.diff-highlight > code .token.deleted:not(.prefix)::selection,
 pre.diff-highlight > code .token.deleted:not(.prefix) *::selection,
-pre > code.diff-highlight .token.deleted:not(.prefix)::-moz-selection,
-pre > code.diff-highlight .token.deleted:not(.prefix) *::-moz-selection,
 pre > code.diff-highlight .token.deleted:not(.prefix)::selection,
 pre > code.diff-highlight .token.deleted:not(.prefix) *::selection {
 	background-color: #fb566940;
@@ -365,10 +368,13 @@ pre > code.diff-highlight .token.inserted:not(.prefix) {
 
 pre.diff-highlight > code .token.inserted:not(.prefix)::-moz-selection,
 pre.diff-highlight > code .token.inserted:not(.prefix) *::-moz-selection,
+pre > code.diff-highlight .token.inserted:not(.prefix)::-moz-selection,
+pre > code.diff-highlight .token.inserted:not(.prefix) *::-moz-selection {
+	background-color: #38e06240;
+}
+
 pre.diff-highlight > code .token.inserted:not(.prefix)::selection,
 pre.diff-highlight > code .token.inserted:not(.prefix) *::selection,
-pre > code.diff-highlight .token.inserted:not(.prefix)::-moz-selection,
-pre > code.diff-highlight .token.inserted:not(.prefix) *::-moz-selection,
 pre > code.diff-highlight .token.inserted:not(.prefix)::selection,
 pre > code.diff-highlight .token.inserted:not(.prefix) *::selection {
 	background-color: #38e06240;
