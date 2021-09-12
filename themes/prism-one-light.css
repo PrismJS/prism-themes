@@ -254,9 +254,10 @@ pre[class*="language-"] {
 
 /* Toolbar plugin overrides */
 div.code-toolbar > .toolbar {
-	right: 0.5em;
+	right: 0.5em; /* moving the toolbar more to the left than the default */
 }
 
+/* Styling the buttons */
 div.code-toolbar > .toolbar > .toolbar-item > button,
 div.code-toolbar > .toolbar > .toolbar-item > a,
 div.code-toolbar > .toolbar > .toolbar-item > span {
@@ -281,6 +282,7 @@ div.code-toolbar > .toolbar > .toolbar-item > span:focus {
 	background: #383a420d;
 }
 
+/* Default line numbers in Line Highlight plugin */
 .line-highlight:before,
 .line-highlight[data-end]:after {
 	background: #e5e5e6;
@@ -290,16 +292,21 @@ div.code-toolbar > .toolbar > .toolbar-item > span:focus {
 	box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.2); /* same as Toolbar plugin default */
 }
 
+/* Hovering over a linkable line number (in the gutter area) */
 pre[id].linkable-line-numbers span.line-numbers-rows > span:hover:before {
 	background-color: #383a420d;
 }
 
-/* Line Numbers plugin overrides */
-.line-numbers .line-numbers-rows {
+/* Line Numbers and Command Line plugins overrides */
+/* Line separating gutter from coding area */
+.line-numbers .line-numbers-rows,
+.command-line-prompt {
 	border-right: 1px solid #383a4240;
 }
 
-.line-numbers-rows > span:before {
+/* Stuff in the gutter */
+.line-numbers-rows > span:before,
+.command-line-prompt > span:before {
 	color: #383a42; /* would prefer @syntax-gutter but it fails WCAG AA */
 }
 
@@ -363,23 +370,16 @@ pre > code.diff-highlight .token.inserted:not(.prefix) *::selection {
 	background-color: #38e06240;
 }
 
-/* Command Line plugin overrides */
-.command-line-prompt {
-	border-right: 1px solid #383a4240;
-}
-
-.command-line-prompt > span:before {
-	color: #383a42; /* would prefer @syntax-gutter but it fails WCAG AA */
-}
-
 /* Previewers plugin overrides */
 /* Based on https://github.com/atom-community/atom-ide-datatip/blob/master/styles/atom-ide-datatips.less and https://github.com/atom/atom/blob/master/packages/one-light-ui */
+/* Border around popup */
 .prism-previewer:before,
 .prism-previewer-gradient div {
 	border-radius: 0.3em;
 	border: 5px solid #f2f2f2;
 }
 
+/* Triangles pointing to the code */
 .prism-previewer:after {
 	border-top-color: #f2f2f2;
 }
@@ -388,6 +388,7 @@ pre > code.diff-highlight .token.inserted:not(.prefix) *::selection {
 	border-bottom-color: #f2f2f2;
 }
 
+/* Background colour within the popup */
 .prism-previewer-angle:before,
 .prism-previewer-time:before,
 .prism-previewer-easing {
