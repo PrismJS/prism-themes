@@ -1,19 +1,8 @@
-## 🙌 Thanks For Making PR
 
 <!--
-Before submitting your PR, please make sure that all tests pass. 
-You can run all tests using `npm test`.
+🙌 Thank you for making this PR!
+Before submitting your PR, please check the following:
+- Your code follows the code style of this project (`npm run lint`).
+- You have performed a self-review of your own code.
+- You have run the test cases (`npm run test`).
 -->
-
-#### Checklist
-<!--
-Example how to mark a checkbox :-
-- [x] My code follows the code style of this project.
--->
-- [ ] My code follows the code style of this project.
-- [ ] I have performed a self-review of my own code.
-- [ ] My changes generate no new warnings.
-- [ ] I have run the test cases.
-- [ ] This PR is for Adding New Theme
-
-
