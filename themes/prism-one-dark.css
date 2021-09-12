@@ -5,6 +5,7 @@
 
 /**
  * One Dark colours in terms of RGB (accurate as of commit 8ae45ca on 6 Sep 2018)
+ * -- From colors.less
  * @mono-1: #abb2bf
  * @mono-2: #828997
  * @mono-3: #5c6370
@@ -21,7 +22,9 @@
  * @syntax-gutter: #636d83
  * @syntax-guide: #abb2bf26
  * @syntax-accent: #528bff
+ * -- From syntax-variables.less
  * @syntax-selection-color: #3e4451
+ * @syntax-gutter-background-color-selected: #3a3f4b
  */
 
 code[class*="language-"],
@@ -256,4 +259,28 @@ pre[class*="language-"] {
 .token.space:before {
 	color: #abb2bf26;
 	text-shadow: none;
+}
+
+/* Toolbar plugin overrides */
+div.code-toolbar > .toolbar {
+	right: 0.5em;
+}
+
+div.code-toolbar > .toolbar > .toolbar-item > button,
+div.code-toolbar > .toolbar > .toolbar-item > a,
+div.code-toolbar > .toolbar > .toolbar-item > span {
+	background: #3a3f4b;
+	color: #828997;
+	padding: 0.1em 0.4em;
+	border-radius: 0.3em;
+}
+
+div.code-toolbar > .toolbar > .toolbar-item > button:hover,
+div.code-toolbar > .toolbar > .toolbar-item > button:focus,
+div.code-toolbar > .toolbar > .toolbar-item > a:hover,
+div.code-toolbar > .toolbar > .toolbar-item > a:focus,
+div.code-toolbar > .toolbar > .toolbar-item > span:hover,
+div.code-toolbar > .toolbar > .toolbar-item > span:focus {
+	background: #3e4451;
+	color: #abb2bf;
 }
