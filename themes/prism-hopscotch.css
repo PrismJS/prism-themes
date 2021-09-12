@@ -10,7 +10,7 @@
 code[class*="language-"],
 pre[class*="language-"] {
 	font-family: "Fira Mono", Menlo, Monaco, "Lucida Console", "Courier New", Courier, monospace;
-	font-size: 16px;
+	font-size: 1em;
 	line-height: 1.375;
 	direction: ltr;
 	text-align: left;
@@ -30,10 +30,6 @@ pre[class*="language-"] {
 	word-wrap: break-word;
 	background: #322931;
 	color: #b9b5b8;
-}
-
-pre > code[class*="language-"] {
-	font-size: 1em;
 }
 
 /* Code blocks */

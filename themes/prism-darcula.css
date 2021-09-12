@@ -12,6 +12,7 @@ code[class*="language-"],
 pre[class*="language-"] {
 	color: #a9b7c6;
 	font-family: Consolas, Monaco, 'Andale Mono', monospace;
+	font-size: 1em;
 	direction: ltr;
 	text-align: left;
 	white-space: pre;

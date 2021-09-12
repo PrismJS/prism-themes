@@ -16,13 +16,9 @@ pre[class*="language-"] {
 	white-space: pre-wrap;
 	word-wrap: normal;
 	font-family: Menlo, Monaco, "Courier New", monospace;
-	font-size: 14px;
+	font-size: 1em;
 	color: #76d9e6;
 	text-shadow: none;
-}
-
-pre > code[class*="language-"] {
-	font-size: 1em;
 }
 
 pre[class*="language-"],
@@ -31,7 +27,7 @@ pre[class*="language-"],
 }
 
 pre[class*="language-"] {
-	padding: 15px;
+	padding: 1em;
 	border-radius: 4px;
 	border: 1px solid #e1e1e8;
 	overflow: auto;
