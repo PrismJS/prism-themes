@@ -298,3 +298,37 @@ div.code-toolbar > .toolbar > .toolbar-item > span:focus {
 .rainbow-braces .token.punctuation.brace-level-12 {
 	color: #a626a4;
 }
+
+/* Diff Highlight plugin overrides */
+/* Taken from https://github.com/atom/github/blob/master/styles/variables.less */
+pre.diff-highlight > code .token.deleted:not(.prefix),
+pre > code.diff-highlight .token.deleted:not(.prefix) {
+	background-color: #ff526626;
+}
+
+pre.diff-highlight > code .token.deleted:not(.prefix)::-moz-selection,
+pre.diff-highlight > code .token.deleted:not(.prefix) *::-moz-selection,
+pre.diff-highlight > code .token.deleted:not(.prefix)::selection,
+pre.diff-highlight > code .token.deleted:not(.prefix) *::selection,
+pre > code.diff-highlight .token.deleted:not(.prefix)::-moz-selection,
+pre > code.diff-highlight .token.deleted:not(.prefix) *::-moz-selection,
+pre > code.diff-highlight .token.deleted:not(.prefix)::selection,
+pre > code.diff-highlight .token.deleted:not(.prefix) *::selection {
+	background-color: #fb566940;
+}
+
+pre.diff-highlight > code .token.inserted:not(.prefix),
+pre > code.diff-highlight .token.inserted:not(.prefix) {
+	background-color: #1aff5b26;
+}
+
+pre.diff-highlight > code .token.inserted:not(.prefix)::-moz-selection,
+pre.diff-highlight > code .token.inserted:not(.prefix) *::-moz-selection,
+pre.diff-highlight > code .token.inserted:not(.prefix)::selection,
+pre.diff-highlight > code .token.inserted:not(.prefix) *::selection,
+pre > code.diff-highlight .token.inserted:not(.prefix)::-moz-selection,
+pre > code.diff-highlight .token.inserted:not(.prefix) *::-moz-selection,
+pre > code.diff-highlight .token.inserted:not(.prefix)::selection,
+pre > code.diff-highlight .token.inserted:not(.prefix) *::selection {
+	background-color: #38e06240;
+}
