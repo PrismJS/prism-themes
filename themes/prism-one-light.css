@@ -275,6 +275,15 @@ div.code-toolbar > .toolbar > .toolbar-item > span:focus {
 	color: #383a42;
 }
 
+/* Line Numbers plugin overrides */
+.line-numbers .line-numbers-rows {
+	border-right: 1px solid #383a4240;
+}
+
+.line-numbers-rows > span:before {
+	color: #383a42; /* would prefer @syntax-gutter but it fails WCAG AA */
+}
+
 /* Match Braces plugin overrides */
 /* Note: Outline colour is inherited from the braces */
 .rainbow-braces .token.punctuation.brace-level-1,
