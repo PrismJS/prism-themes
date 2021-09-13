@@ -374,8 +374,14 @@ pre > code.diff-highlight .token.inserted:not(.prefix) *::selection {
 /* Border around popup */
 .prism-previewer:before,
 .prism-previewer-gradient div {
-	border-radius: 0.3em;
 	border-color: #f2f2f2;
+}
+
+/* Angle and time should remain as circles and are hence not included */
+.prism-previewer-color:before,
+.prism-previewer-gradient div,
+.prism-previewer-easing:before {
+	border-radius: 0.3em;
 }
 
 /* Triangles pointing to the code */
