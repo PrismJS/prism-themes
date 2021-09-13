@@ -294,7 +294,7 @@ pre[id].linkable-line-numbers span.line-numbers-rows > span:hover:before {
 /* Line separating gutter from coding area */
 .line-numbers .line-numbers-rows,
 .command-line-prompt {
-	border-right: 1px solid #383a4240;
+	border-right-color: #383a4240;
 }
 
 /* Stuff in the gutter */
