@@ -257,8 +257,9 @@ pre[class*="language-"] {
 }
 
 /* Toolbar plugin overrides */
-div.code-toolbar > .toolbar {
-	right: 0.5em; /* move the toolbar more to the left than the default */
+/* Space out all buttons and move them away from the right edge of the code block */
+div.code-toolbar > .toolbar > .toolbar-item {
+	margin-right: 0.4em;
 }
 
 /* Styling the buttons */
