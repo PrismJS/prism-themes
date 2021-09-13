@@ -386,7 +386,7 @@ pre > code.diff-highlight .token.inserted:not(.prefix) *::selection {
 .prism-previewer:before,
 .prism-previewer-gradient div {
 	border-radius: 0.3em;
-	border: 5px solid #252830;
+	border-color: #252830;
 }
 
 /* Triangles pointing to the code */
