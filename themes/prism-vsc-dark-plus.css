@@ -272,7 +272,7 @@ pre[class*="language-"] > code[class*="language-"] {
 	z-index: 1;
 }
 
-.line-highlight {
+.line-highlight.line-highlight {
 	position: absolute;
 	left: 0;
 	right: 0;
