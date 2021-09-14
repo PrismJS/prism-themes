@@ -23,10 +23,10 @@ To use one of the themes, just include the theme's CSS file in your page. Exampl
 </html>
 ```
 
-## Adding a New Theme
+## Adding new themes
 
-To add your own theme, copy it into the `themes` directory and add your themes to the list of available themes in the readme.
-The links for your themes have to be `themes/prism-<your theme>.css` for the theme itself and `screenshots/prism-<your theme>.png` for the screenshot.
+To add your own theme/s, copy it/them into the `themes` directory and add your theme/s to the list of available themes in this readme.
+The filenames for your themes have to be `themes/prism-<your-theme>.css` for the theme itself and `screenshots/prism-<your-theme>.png` for the screenshot.
 
 The screenshot will be created for you by running the following command:
 
@@ -34,7 +34,7 @@ The screenshot will be created for you by running the following command:
 npm i && npx gulp screenshot
 ```
 
-Before making a pull request, you can the following command to verify that all checks pass:
+Before making a pull request, you can run the following command to verify that all checks pass:
 
 ```bash
 npm test
@@ -57,7 +57,7 @@ Thank you so much for contributing!!
 [![Xonokai](screenshots/prism-xonokai.png)](themes/prism-xonokai.css)
 
 * [__Ateliersulphurpool-light__](themes/prism-base16-ateliersulphurpool.light.css) (by [Bram de Haan](https://github.com/atelierbram))<br />
-[![Ateliersulpherpool-light](screenshots/prism-base16-ateliersulphurpool.light.png)](themes/prism-base16-ateliersulphurpool.light.css)
+[![Ateliersulphurpool-light](screenshots/prism-base16-ateliersulphurpool.light.png)](themes/prism-base16-ateliersulphurpool.light.css)
 
 * [__Hopscotch__](themes/prism-hopscotch.css) (by [Jan T. Sott](https://github.com/idleberg))<br />
 [![Hopscotch](screenshots/prism-hopscotch.png)](themes/prism-hopscotch.css)
@@ -89,14 +89,14 @@ Thank you so much for contributing!!
 * [__VS Code Dark+__](themes/prism-vsc-dark-plus.css) (by [tabuckner](https://github.com/tabuckner))<br />
 [![VS](screenshots/prism-vsc-dark-plus.png)](themes/prism-vsc-dark-plus.css)
 
-* [__Darcula__](themes/prism-darcula.css) (by [service-paradis](https://github.com/service-paradis), based on Jetbrains Darcula theme)<br />
+* [__Darcula__](themes/prism-darcula.css) (by [service-paradis](https://github.com/service-paradis), based on Jetbrains' Darcula theme)<br />
 [![Darcula](screenshots/prism-darcula.png)](themes/prism-darcula.css)
 
 * [__a11y Dark__](themes/prism-a11y-dark.css) (by [ericwbailey](https://github.com/ericwbailey))<br />
 [![a11y Dark](screenshots/prism-a11y-dark.png)](themes/prism-a11y-dark.css)
 
 * [__Dracula__](themes/prism-dracula.css) (by [Byverdu](https://github.com/byverdu))<br />
-[![a11y Dark](screenshots/prism-dracula.png)](themes/prism-dracula.css)
+[![Dracula](screenshots/prism-dracula.png)](themes/prism-dracula.css)
 
 * [__Synthwave '84__](themes/prism-synthwave84.css) (originally by [Robb Owen](https://github.com/robb0wen), adapted by [Marc Backes](https://github.com/themarcba))<br />
 [![Synthwave '84](screenshots/prism-synthwave84.png)](themes/prism-synthwave84.css)
@@ -134,7 +134,7 @@ Thank you so much for contributing!!
 * [__Lucario__](themes/prism-lucario.css) (by [Christopher Kapic](https://github.com/christopher-kapic), based on [Raphael Amorim's](https://github.com/raphamorim) [Lucario Theme](https://github.com/raphamorim/lucario))<br />
 [![Lucario](screenshots/prism-lucario.png)](themes/prism-lucario.css)
 
-* [__Night Owl__](themes/prism-night-owl.css) (by [Souvik Mandal](https://github.com/SimpleIndian), based on [Sarah Drasner's](https://github.com/sdras) [Night owl Theme](https://github.com/sdras/night-owl-vscode-theme))<br />
+* [__Night Owl__](themes/prism-night-owl.css) (by [Souvik Mandal](https://github.com/SimpleIndian), based on [Sarah Drasner's](https://github.com/sdras) [Night Owl Theme](https://github.com/sdras/night-owl-vscode-theme))<br />
 [![Night Owl](screenshots/prism-night-owl.png)](themes/prism-night-owl.css)
 
 * [__Holi Theme__](themes/prism-holi-theme.css) (by [Ayush Saini](https://github.com/AyushSaini00), based on [Holi Theme for VS Code](https://github.com/AyushSaini00/holi-theme))<br />
