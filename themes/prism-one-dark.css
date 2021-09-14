@@ -312,7 +312,7 @@ pre[id].linkable-line-numbers span.line-numbers-rows > span:hover:before {
 /* Stuff in the gutter */
 .line-numbers-rows > span:before,
 .command-line-prompt > span:before {
-	color: hsl(220, 14%, 71%); /* would prefer --syntax-gutter but it fails WCAG AA */
+	color: hsl(220, 14%, 45%);
 }
 
 /* Match Braces plugin overrides */
