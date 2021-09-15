@@ -24,7 +24,7 @@ code[class*="language-"]::selection,
 pre[class*="language-"] *::selection,
 code[class*="language-"] *::selection {
 	text-shadow: none;
-	background: #75a7ca;
+	background: #264F78;
 }
 
 @media print {
@@ -45,7 +45,7 @@ pre[class*="language-"] {
 	padding: .1em .3em;
 	border-radius: .3em;
 	color: #db4c69;
-	background: #f9f2f4;
+	background: #1e1e1e;
 }
 /*********************************************************
 * Tokens
@@ -263,25 +263,13 @@ code[class*="language-html"] {
 /*********************************************************
 * Line highlighting
 */
-pre[data-line] {
-	position: relative;
-}
-
 pre[class*="language-"] > code[class*="language-"] {
 	position: relative;
 	z-index: 1;
 }
 
-.line-highlight {
-	position: absolute;
-	left: 0;
-	right: 0;
-	padding: inherit 0;
-	margin-top: 1em;
+.line-highlight.line-highlight {
 	background: #f7ebc6;
 	box-shadow: inset 5px 0 0 #f7d87c;
 	z-index: 0;
-	pointer-events: none;
-	line-height: inherit;
-	white-space: pre;
 }
