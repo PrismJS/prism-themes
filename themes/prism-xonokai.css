@@ -146,13 +146,13 @@ code.language-markup .token.script .token.keyword {
 }
 
 /* Line highlight plugin */
-pre[data-line] .line-highlight {
+.line-highlight.line-highlight {
 	padding: 0;
 	background: rgba(255, 255, 255, 0.08);
 }
 
-pre[data-line] .line-highlight:before,
-pre[data-line] .line-highlight[data-end]:after {
+.line-highlight.line-highlight:before,
+.line-highlight.line-highlight[data-end]:after {
 	padding: 0.2em 0.5em;
 	background-color: rgba(255, 255, 255, 0.4);
 	color: black;

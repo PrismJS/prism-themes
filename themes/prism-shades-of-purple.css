@@ -185,9 +185,7 @@ code.language-css .token.selector > .token.pseudo-element {
 	background: none;
 }
 
-pre .line-highlight,
-pre .line-highlight.line-highlight,
-pre > code.line-highlight {
+.line-highlight.line-highlight {
 	margin-top: 36px;
 	background: linear-gradient(to right, rgba(179, 98, 255, 0.17), transparent);
 }
