@@ -263,25 +263,13 @@ code[class*="language-html"] {
 /*********************************************************
 * Line highlighting
 */
-pre[data-line] {
-	position: relative;
-}
-
 pre[class*="language-"] > code[class*="language-"] {
 	position: relative;
 	z-index: 1;
 }
 
 .line-highlight.line-highlight {
-	position: absolute;
-	left: 0;
-	right: 0;
-	padding: inherit 0;
-	margin-top: 1em;
 	background: #f7ebc6;
 	box-shadow: inset 5px 0 0 #f7d87c;
 	z-index: 0;
-	pointer-events: none;
-	line-height: inherit;
-	white-space: pre;
 }
