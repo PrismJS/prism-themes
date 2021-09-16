@@ -1,6 +1,27 @@
 # Prism Themes Changelog
 
 
+## 1.9.0 (2021-09-16)
+
+### New Themes
+
+* Z-Touch (#128)
+* Solarized Dark Atom (#129)
+* One Dark (#130)
+* One Light (#131)
+
+### Improved
+
+* Added issue and pull request templates (#132)
+* Added minified CSS (#136)
+* Added plugin overrides for One Dark and One Light (#134)
+
+### Fixed
+
+* VSC Dark+: Fixed light background and selection color (#138)
+* Standardize and increase the specificity of selectors for plugin overrides (#141)
+
+
 ## 1.8.0 (2021-07-19)
 
 ### New Themes
