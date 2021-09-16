@@ -1,6 +1,6 @@
 {
   "name": "prism-themes",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "description": "Additional themes for the Prism syntax highlighting library.",
   "main": "index.js",
   "scripts": {
