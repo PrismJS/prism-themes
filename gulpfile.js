@@ -1,5 +1,7 @@
 const fs = require('fs').promises;
-const { parallel } = require('gulp');
+const { src, dest, parallel } = require('gulp');
+const cleanCSS = require('gulp-clean-css')
+const rename = require('gulp-rename')
 const captureWebsite = require('capture-website');
 const path = require('path');
 
@@ -103,7 +105,16 @@ async function linkify() {
 }
 
 
+function minify() {
+	return src(['themes/*.css', '!themes/*.min.css'])
+		.pipe(cleanCSS())
+		.pipe(rename({ suffix: '.min' }))
+		.pipe(dest('themes/'));
+}
+
+
 exports.screenshot = screenshotMissingThemes;
 exports['screenshot-all'] = screenshotAllThemes;
 exports.check = parallel(checkScreenshots, checkAvailableThemes);
 exports.linkify = linkify;
+exports.minify = minify;
