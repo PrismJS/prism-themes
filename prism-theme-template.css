@@ -1,0 +1,440 @@
+/**
+ * Your theme's name
+ * If this is an adaptation of an existing theme, credit the creator and/or leave a link to it!
+ * Optional: Your name and/or username
+ */
+
+/**
+ * Prism supports IE11, which does not support CSS variables
+ * However, you are encouraged to leave a list of colours you use here
+ * so that when we transition to Prism V2 (and drop support for IE11),
+ * the transition will be a little easier!
+ */
+
+/* The styles used in this template are mostly taken from the One Dark theme */
+
+/* Set the main properties of the code, code blocks, and inline code */
+code[class*="language-"],
+pre[class*="language-"] {
+	background: hsl(220, 13%, 18%);
+	color: hsl(220, 14%, 71%);
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	/* The following properties are standard, please leave them as they are */
+	font-size: 1em;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	line-height: 1.5;
+	/* You may change the following properties */
+	-moz-tab-size: 2;
+	-o-tab-size: 2;
+	tab-size: 2;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Optional: What the code looks like when highlighted */
+code[class*="language-"]::-moz-selection,
+code[class*="language-"] ::-moz-selection,
+pre[class*="language-"]::-moz-selection,
+pre[class*="language-"] ::-moz-selection {
+	background: hsl(220, 13%, 28%);
+	color: inherit;
+	text-shadow: none;
+}
+
+code[class*="language-"]::selection,
+code[class*="language-"] ::selection,
+pre[class*="language-"]::selection,
+pre[class*="language-"] ::selection {
+	background: hsl(220, 13%, 28%);
+	color: inherit;
+	text-shadow: none;
+}
+
+/* Properties specific to code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: 0.5em 0;
+	overflow: auto; /* do not change this */
+	border-radius: 0.3em;
+}
+
+/* Properties specific to inline code */
+:not(pre) > code[class*="language-"] {
+	padding: 0.2em 0.3em;
+	border-radius: 0.3em;
+	white-space: normal;
+}
+
+/* Print */
+@media print {
+	code[class*="language-"],
+	pre[class*="language-"] {
+		text-shadow: none;
+	}
+}
+
+/* These are the minimum tokens you must style, though do feel free to rearrange them as you need */
+.token.comment,
+.token.prolog,
+.token.cdata {
+	color: hsl(220, 10%, 40%);
+}
+
+.token.doctype,
+.token.punctuation,
+.token.entity {
+	color: hsl(220, 14%, 71%);
+}
+
+.token.attr-name,
+.token.class-name,
+.token.boolean,
+.token.constant,
+.token.number,
+.token.atrule {
+	color: hsl(29, 54%, 61%);
+}
+
+.token.keyword {
+	color: hsl(286, 60%, 67%);
+}
+
+.token.property,
+.token.tag,
+.token.symbol,
+.token.deleted,
+.token.important {
+	color: hsl(355, 65%, 65%);
+}
+
+.token.selector,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted,
+.token.regex,
+.token.attr-value {
+	color: hsl(95, 38%, 62%);
+}
+
+.token.variable,
+.token.operator,
+.token.function {
+	color: hsl(207, 82%, 66%);
+}
+
+.token.url {
+	color: hsl(187, 47%, 55%);
+}
+
+/* The following rules are pretty standard across themes, but feel free to adjust them */
+.token.bold {
+	font-weight: bold;
+}
+
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+
+.token.namespace {
+	opacity: 0.7;
+}
+
+/* Everything below this line is optional; it depends on how detailed you want your theme to be */
+
+/* LANGUAGE-SPECIFIC OVERRIDES */
+/* If you'd like your theme to have overrides for specific languages, here's an example */
+.language-css .token.important {
+	color: hsl(286, 60%, 67%);
+}
+
+/* PLUGIN OVERRIDES */
+/* If you'd like to override default plugin styles, you can use these selectors */
+
+/**
+ * The duplicate classes are intentional - this is to ensure that your declared
+ * styles will take precedence over the plugins' defaults, as we cannot control
+ * whether the user will insert your stylesheet first or last
+ */
+
+/**
+ * The most popular plugins are: Line Highlight, Line Numbers, and Toolbar
+ */
+
+/**
+ * Show Invisibles plugin overrides
+ * https://prismjs.com/plugins/show-invisibles
+ */
+
+/* Styling the look of the tokens */
+.token.token.tab:not(:empty):before,
+.token.token.cr:before,
+.token.token.lf:before,
+.token.token.space:before {
+	color: hsla(220, 14%, 71%, 0.15);
+	text-shadow: none;
+}
+
+/**
+ * Autolink plugin overrides
+ * https://prismjs.com/plugins/autolinker
+ */
+
+/* Link in the code */
+.token.token a {
+	color: inherit; /* this is the default */
+}
+
+/**
+ * Toolbar plugin overrides
+ * https://prismjs.com/plugins/toolbar
+ * This is the third-most popular plugin
+ * Used in conjunction with Show Language, Copy to Clipboard Button, and/or Download Button
+ */
+
+/* The 'containers' holding the buttons (or pills) themselves */
+div.code-toolbar > .toolbar.toolbar > .toolbar-item {
+	margin-right: 0.4em; /* default: not set; there is no spacing */
+}
+
+/* Styling the buttons (or pills) */
+/* Feel free to style them separately if that's what you prefer */
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > button,
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > a,
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > span {
+	background: hsl(220, 13%, 26%);
+	color: hsl(220, 9%, 55%);
+	padding: 0.1em 0.4em;
+	border-radius: 0.3em;
+}
+
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > button:hover,
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > button:focus,
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > a:hover,
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > a:focus,
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > span:hover,
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > span:focus {
+	background: hsl(220, 13%, 28%);
+	color: hsl(220, 14%, 71%);
+}
+
+/**
+ * Line Highlight plugin overrides
+ * https://prismjs.com/plugins/line-highlight
+ * This is the most popular plugin
+ */
+
+/* The highlighted line itself */
+.line-highlight.line-highlight {
+	background: hsla(220, 100%, 80%, 0.04);
+}
+
+/* Default line numbers in Line Highlight plugin */
+.line-highlight.line-highlight:before,
+.line-highlight.line-highlight[data-end]:after {
+	background: hsl(220, 13%, 26%);
+	color: hsl(220, 14%, 71%);
+	padding: 0.1em 0.6em;
+	border-radius: 0.3em;
+	box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.2); /* same as Toolbar plugin default */
+}
+
+/* Hovering over a linkable line number (in the gutter area) */
+/* Requires Line Numbers plugin as well */
+pre[id].linkable-line-numbers.linkable-line-numbers span.line-numbers-rows > span:hover:before {
+	background-color: hsla(220, 100%, 80%, 0.04);
+}
+
+/**
+ * Line Numbers plugin overrides
+ * https://prismjs.com/plugins/line-numbers
+ * This is the second-most popular plugin
+ */
+
+/* Line separating gutter from coding area */
+.line-numbers.line-numbers .line-numbers-rows {
+	border-right-color: hsla(220, 14%, 71%, 0.15);
+}
+
+/* Line numbers */
+.line-numbers .line-numbers-rows > span:before {
+	color: hsl(220, 14%, 45%);
+}
+
+/**
+ * Command Line plugin overrides
+ * https://prismjs.com/plugins/command-line
+ */
+
+/* Line separating gutter from coding area */
+.command-line .command-line-prompt {
+	border-right-color: hsla(220, 14%, 71%, 0.15);
+}
+
+/* User details or whatever in the gutter */
+.command-line .command-line-prompt > span:before {
+	color: hsl(220, 14%, 45%);
+}
+
+/**
+ * Match Braces plugin overrides
+ * https://prismjs.com/plugins/match-braces
+ */
+
+/* Style of braces on hover */
+.token.token.punctuation.brace-hover,
+.token.token.punctuation.brace-selected {
+	outline-color: hsl(220, 100%, 66%); /* default: not set; inherits from .token.punctuation */
+}
+
+/* Braces when rainbow braces is enabled */
+/* Feel free to re-organise the levels */
+.rainbow-braces .token.token.punctuation.brace-level-1,
+.rainbow-braces .token.token.punctuation.brace-level-5,
+.rainbow-braces .token.token.punctuation.brace-level-9 {
+	color: hsl(355, 65%, 65%);
+	outline-color: inherit;
+}
+
+.rainbow-braces .token.token.punctuation.brace-level-2,
+.rainbow-braces .token.token.punctuation.brace-level-6,
+.rainbow-braces .token.token.punctuation.brace-level-10 {
+	color: hsl(95, 38%, 62%);
+	outline-color: inherit;
+}
+
+.rainbow-braces .token.token.punctuation.brace-level-3,
+.rainbow-braces .token.token.punctuation.brace-level-7,
+.rainbow-braces .token.token.punctuation.brace-level-11 {
+	color: hsl(207, 82%, 66%);
+	outline-color: inherit;
+}
+
+.rainbow-braces .token.token.punctuation.brace-level-4,
+.rainbow-braces .token.token.punctuation.brace-level-8,
+.rainbow-braces .token.token.punctuation.brace-level-12 {
+	color: hsl(286, 60%, 67%);
+	outline-color: inherit;
+}
+
+/**
+ * Diff Highlight plugin overrides
+ * https://prismjs.com/plugins/diff-highlight
+ */
+
+/* Deleted lines */
+pre.diff-highlight > code .token.token.deleted:not(.prefix),
+pre > code.diff-highlight .token.token.deleted:not(.prefix) {
+	background-color: hsla(353, 100%, 66%, 0.15);
+}
+
+/* Deleted lines on highlight */
+pre.diff-highlight > code .token.token.deleted:not(.prefix)::-moz-selection,
+pre.diff-highlight > code .token.token.deleted:not(.prefix) *::-moz-selection,
+pre > code.diff-highlight .token.token.deleted:not(.prefix)::-moz-selection,
+pre > code.diff-highlight .token.token.deleted:not(.prefix) *::-moz-selection {
+	background-color: hsla(353, 95%, 66%, 0.25);
+}
+
+pre.diff-highlight > code .token.token.deleted:not(.prefix)::selection,
+pre.diff-highlight > code .token.token.deleted:not(.prefix) *::selection,
+pre > code.diff-highlight .token.token.deleted:not(.prefix)::selection,
+pre > code.diff-highlight .token.token.deleted:not(.prefix) *::selection {
+	background-color: hsla(353, 95%, 66%, 0.25);
+}
+
+/* Inserted lines */
+pre.diff-highlight > code .token.token.inserted:not(.prefix),
+pre > code.diff-highlight .token.token.inserted:not(.prefix) {
+	background-color: hsla(137, 100%, 55%, 0.15);
+}
+
+/* Inserted lines on highlight */
+pre.diff-highlight > code .token.token.inserted:not(.prefix)::-moz-selection,
+pre.diff-highlight > code .token.token.inserted:not(.prefix) *::-moz-selection,
+pre > code.diff-highlight .token.token.inserted:not(.prefix)::-moz-selection,
+pre > code.diff-highlight .token.token.inserted:not(.prefix) *::-moz-selection {
+	background-color: hsla(135, 73%, 55%, 0.25);
+}
+
+pre.diff-highlight > code .token.token.inserted:not(.prefix)::selection,
+pre.diff-highlight > code .token.token.inserted:not(.prefix) *::selection,
+pre > code.diff-highlight .token.token.inserted:not(.prefix)::selection,
+pre > code.diff-highlight .token.token.inserted:not(.prefix) *::selection {
+	background-color: hsla(135, 73%, 55%, 0.25);
+}
+
+/**
+ * Previewers plugin overrides
+ * https://prismjs.com/plugins/previewers
+ */
+
+/* The main bulk of the popup */
+.prism-previewer.prism-previewer:before,
+.prism-previewer-gradient.prism-previewer-gradient div {
+	border-color: hsl(224, 13%, 17%);
+}
+
+/* Specifically for border radius of the popup if you want to modify it */
+/* Angle and time should remain as circles and are hence not included */
+.prism-previewer-color.prism-previewer-color:before,
+.prism-previewer-gradient.prism-previewer-gradient div,
+.prism-previewer-easing.prism-previewer-easing:before {
+	border-radius: 0.3em;
+}
+
+/* Triangle part of the popup pointing to the code */
+.prism-previewer.prism-previewer:after {
+	border-top-color: hsl(224, 13%, 17%);
+}
+
+.prism-previewer-flipped.prism-previewer-flipped.after {
+	border-bottom-color: hsl(224, 13%, 17%);
+}
+
+/* Background colour within the popup */
+.prism-previewer-angle.prism-previewer-angle:before,
+.prism-previewer-time.prism-previewer-time:before,
+.prism-previewer-easing.prism-previewer-easing {
+	background: hsl(219, 13%, 22%);
+}
+
+/* For angle, this is the positive area (eg. 90deg will display one quadrant in this colour) */
+/* For time, this is the alternate colour */
+.prism-previewer-angle.prism-previewer-angle circle,
+.prism-previewer-time.prism-previewer-time circle {
+	stroke: hsl(220, 14%, 71%);
+	stroke-opacity: 1; /* default: 0.9 */
+}
+
+/* Stroke colours of the handle (circle), direction point (line), and vector itself (path) */
+/* If you need help with the terminology: https://shapeshed.com/illustrator-101-the-pen-tool/ */
+/* Feel free to style these separately */
+.prism-previewer-easing.prism-previewer-easing circle,
+.prism-previewer-easing.prism-previewer-easing line,
+.prism-previewer-easing.prism-previewer-easing path {
+	stroke: hsl(220, 14%, 71%);
+}
+
+/* Fill colour of the handle */
+.prism-previewer-easing.prism-previewer-easing circle {
+	fill: transparent;
+}
+
+/**
+ * Treeview plugin overrides
+ * https://prismjs.com/plugins/treeview
+ */
+
+/* TODO, maybe */
