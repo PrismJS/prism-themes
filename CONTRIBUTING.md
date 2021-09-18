@@ -208,7 +208,7 @@ Here are some resources that you may find helpful when designing and developing 
 
 ### Submitting your themes
 
-This section assumes some familiarity with git and npm (and of course, that you have git and Node.js installed). If you have any questions or need more guidance beyond Google, please reach out by [opening a new issue](https://github.com/PrismJS/prism-themes/issues/new/choose), we'll be happy to help!
+This section assumes some familiarity with git and npm (and of course, that you have git and a recent-ish version of [Node.js](https://nodejs.org/) installed). If you have any questions or need more guidance beyond Google, please reach out by [opening a new issue](https://github.com/PrismJS/prism-themes/issues/new/choose), we'll be happy to help!
 
 1.  If you haven't already done so, please fork prism-themes and clone it to your machine. It would also be wise to create a new branch to work on.
 
