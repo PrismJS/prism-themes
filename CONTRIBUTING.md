@@ -36,7 +36,7 @@ Perhaps you have some thoughts on Prism Themes, whether it's the state of the co
 
 Whether it's documentation or code, Prism Themes welcomes Pull Requests! (If you're specifically looking to contribute a brand new theme, the next section on [Creating new themes](#creating-new-themes) would be more relevant.)
 
-1.  Fork this repository and create a new branch. It is possible that you do not have to clone it to your machine if you do not have to regenerate theme screenshots. If you need help at any point, please reach out!
+1.  Fork this repository and create a new branch. It is possible that you do not have to clone it to your machine if you do not have to regenerate theme screenshots. If you need help at any point, please reach out by [opening a new issue](https://github.com/PrismJS/prism-themes/issues/new/choose)!
 
 2.  Make the changes.
 
@@ -51,7 +51,7 @@ Thank you for submitting a Pull Request! We really appreciate the time and effor
 
 ## Creating new themes
 
-Prism themes are CSS files that set rules for inline code, code blocks, and the tokens within them. We have a [theme template](prism-theme-template.css) you may want to use as a starting point, as it provides additional tips and details beyond what is stated here. Additionally, when designing your theme, please make sure that the [theme guidelines and requirements](#theme-guidelines-and-requirements) are adhered to.
+Prism themes are CSS files that set rules for inline code, code blocks, and the tokens within them. We have a [theme template](template/prism-theme-template.css) you may want to use as a starting point, as it provides additional tips and details beyond what is stated here. Additionally, when designing your theme, please make sure that the [theme guidelines and requirements](#theme-guidelines-and-requirements) are adhered to.
 
 ### How to style...
 
@@ -69,7 +69,7 @@ While we have some [resources](#resources) for discovering tokens available in e
 
 ##### Is there a comprehensive list of tokens to style?
 
-We're glad you asked! Prism has quite a few tokens, but until we can get the token docs sorted out, we do not have such a list. However, covering the most common tokens should be enough for most cases, and the names of these tokens are documented in the [theme template](prism-theme-template.css).
+We're glad you asked! Prism has quite a few tokens, but until we can get the token docs sorted out, we do not have such a list. However, covering the most common tokens should be enough for most cases, and the names of these tokens are documented in the [theme template](template/prism-theme-template.css).
 
 #### Tokens for a specific language
 
@@ -132,12 +132,6 @@ pre[class*="language-"] {
 }
 ```
 
-#### Do not set the `overflow` property of `pre` elements
-
-The `overflow` property of `pre` elements must be left unset, or set to `auto`. This is because other `overflow` values will cause problems with layouts based on `float` or flexboxes.
-
-One notable exception is the original Coy theme because its shadows are impossible to implement otherwise.
-
 #### Increase selector specificity if/when overriding the default CSS rules of plugins
 
 If you want to take things a step further, you can also style the additional elements that [Prism's plugins](https://prismjs.com/index.html#plugins) create in the DOM!
@@ -163,7 +157,13 @@ Since it is not possible for Prism to enforce the ordering of stylesheets in all
 }
 ```
 
-Our [theme template](prism-theme-template.css) covers most, if not all, of the plugins and overrides of interest, so you can just grab the selectors from there!
+Our [plugin templates](template) covers most, if not all, of the plugins and overrides of interest, so you can just grab the selectors from there!
+
+If you'd like to prioritise plugins to style, these are the top three most popular plugins:
+
+1.  [Line Highlight](https://prismjs.com/plugins/line-highlight)
+2.  [Line Numbers](https://prismjs.com/plugins/line-numbers)
+3.  [Toolbar](https://prismjs.com/plugins/toolbar)
 
 #### Avoid re-declaring existing declarations if/when styling plugins
 
@@ -208,7 +208,7 @@ Here are some resources that you may find helpful when designing and developing 
 
 ### Submitting your themes
 
-This section assumes some familiarity with git and npm (and of course, that you have git and Node.js installed). If you have any questions or need more guidance beyond Google, please reach out, we'll be happy to help!
+This section assumes some familiarity with git and npm (and of course, that you have git and Node.js installed). If you have any questions or need more guidance beyond Google, please reach out by [opening a new issue](https://github.com/PrismJS/prism-themes/issues/new/choose), we'll be happy to help!
 
 1.  If you haven't already done so, please fork prism-themes and clone it to your machine. It would also be wise to create a new branch to work on.
 
