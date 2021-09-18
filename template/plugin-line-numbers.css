@@ -6,10 +6,10 @@
 
 /* Line separating gutter from coding area */
 .line-numbers.line-numbers .line-numbers-rows {
-	border-right-color: hsla(220, 14%, 71%, 0.15);
+	border-right-color: unset;
 }
 
 /* Line numbers */
 .line-numbers .line-numbers-rows > span:before {
-	color: hsl(220, 14%, 45%);
+	color: unset;
 }

@@ -5,6 +5,9 @@
 		"color-hex-length": null,
 		"comment-empty-line-before": null,
 		"declaration-empty-line-before": null,
+		"declaration-property-value-blacklist": {
+			"//": ["/\\bunset\\b/"]
+		},
 		"indentation": "tab",
 		"no-descending-specificity": null,
 		"number-leading-zero": null,

@@ -5,5 +5,5 @@
 
 /* Link in the code */
 .token.token a {
-	color: inherit; /* this is the default */
+	color: unset; /* default: inherit */
 }

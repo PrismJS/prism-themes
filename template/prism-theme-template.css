@@ -11,15 +11,12 @@
  * the transition will be a little easier!
  */
 
-/* The styles used in this template are mostly taken from the One Dark theme */
-
 /* Set the main properties of the code, code blocks, and inline code */
 code[class*="language-"],
 pre[class*="language-"] {
-	background: hsl(220, 13%, 18%);
-	color: hsl(220, 14%, 71%);
-	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	background: unset;
+	color: unset;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; /* this is the default */
 	/* The following properties are standard, please leave them as they are */
 	font-size: 1em;
 	direction: ltr;
@@ -28,10 +25,11 @@ pre[class*="language-"] {
 	word-spacing: normal;
 	word-break: normal;
 	line-height: 1.5;
-	/* You may change the following properties */
+	/* The default is 4, but you could change it if you really, really want to */
 	-moz-tab-size: 4;
 	-o-tab-size: 4;
 	tab-size: 4;
+	/* The following properties are also standard */
 	-webkit-hyphens: none;
 	-moz-hyphens: none;
 	-ms-hyphens: none;
@@ -43,98 +41,151 @@ code[class*="language-"]::-moz-selection,
 code[class*="language-"] ::-moz-selection,
 pre[class*="language-"]::-moz-selection,
 pre[class*="language-"] ::-moz-selection {
-	background: hsl(220, 13%, 28%);
-	color: inherit;
-	text-shadow: none;
+	background: unset;
+	color: unset;
 }
 
 code[class*="language-"]::selection,
 code[class*="language-"] ::selection,
 pre[class*="language-"]::selection,
 pre[class*="language-"] ::selection {
-	background: hsl(220, 13%, 28%);
-	color: inherit;
-	text-shadow: none;
+	background: unset;
+	color: unset;
 }
 
 /* Properties specific to code blocks */
 pre[class*="language-"] {
-	padding: 1em;
-	margin: 0.5em 0;
-	overflow: auto; /* do not change this */
-	border-radius: 0.3em;
+	padding: 1em; /* this is standard */
+	margin: 0.5em 0; /* this is the default */
+	overflow: auto; /* this is standard */
+	border-radius: unset;
 }
 
 /* Properties specific to inline code */
 :not(pre) > code[class*="language-"] {
-	padding: 0.2em 0.3em;
-	border-radius: 0.3em;
-	white-space: normal;
-}
-
-/* Print */
-@media print {
-	code[class*="language-"],
-	pre[class*="language-"] {
-		text-shadow: none;
-	}
+	padding: 0.1em; /* this is the default */
+	border-radius: unset;
+	white-space: normal; /* this is standard */
 }
 
 /* These are the minimum tokens you must style, though do feel free to rearrange them as you need */
-.token.comment,
-.token.prolog,
+.token.comment {
+	color: unset;
+}
+
+.token.prolog {
+	color: unset;
+}
+
 .token.cdata {
-	color: hsl(220, 10%, 40%);
+	color: unset;
 }
 
-.token.doctype,
-.token.punctuation,
+.token.doctype {
+	color: unset;
+}
+
+.token.punctuation {
+	color: unset;
+}
+
 .token.entity {
-	color: hsl(220, 14%, 71%);
+	color: unset;
 }
 
-.token.attr-name,
-.token.class-name,
-.token.boolean,
-.token.constant,
-.token.number,
+.token.attr-name {
+	color: unset;
+}
+
+.token.class-name {
+	color: unset;
+}
+
+.token.boolean {
+	color: unset;
+}
+
+.token.constant {
+	color: unset;
+}
+
+.token.number {
+	color: unset;
+}
+
 .token.atrule {
-	color: hsl(29, 54%, 61%);
+	color: unset;
 }
 
 .token.keyword {
-	color: hsl(286, 60%, 67%);
+	color: unset;
 }
 
-.token.property,
-.token.tag,
-.token.symbol,
-.token.deleted,
+.token.property {
+	color: unset;
+}
+
+.token.tag {
+	color: unset;
+}
+
+.token.symbol {
+	color: unset;
+}
+
+.token.deleted {
+	color: unset;
+}
+
 .token.important {
-	color: hsl(355, 65%, 65%);
+	color: unset;
 }
 
-.token.selector,
-.token.string,
-.token.char,
-.token.builtin,
-.token.inserted,
-.token.regex,
+.token.selector {
+	color: unset;
+}
+
+.token.string {
+	color: unset;
+}
+
+.token.char {
+	color: unset;
+}
+
+.token.builtin {
+	color: unset;
+}
+
+.token.inserted {
+	color: unset;
+}
+
+.token.regex {
+	color: unset;
+}
+
 .token.attr-value {
-	color: hsl(95, 38%, 62%);
+	color: unset;
 }
 
-.token.variable,
-.token.operator,
+.token.variable {
+	color: unset;
+}
+
+.token.operator {
+	color: unset;
+}
+
 .token.function {
-	color: hsl(207, 82%, 66%);
+	color: unset;
 }
 
 .token.url {
-	color: hsl(187, 47%, 55%);
+	color: unset;
 }
 
-/* The following rules are pretty standard across themes, but feel free to adjust them */
+/* The following rules are pretty similar across themes, but feel free to adjust them */
 .token.bold {
 	font-weight: bold;
 }
@@ -154,5 +205,5 @@ pre[class*="language-"] {
 /* LANGUAGE-SPECIFIC OVERRIDES */
 /* If you'd like your theme to have overrides for specific languages, here's an example */
 .language-css .token.important {
-	color: hsl(286, 60%, 67%);
+	color: unset;
 }

@@ -5,10 +5,10 @@
 
 /* Line separating gutter from coding area */
 .command-line .command-line-prompt {
-	border-right-color: hsla(220, 14%, 71%, 0.15);
+	border-right-color: unset;
 }
 
 /* User details or whatever in the gutter */
 .command-line .command-line-prompt > span:before {
-	color: hsl(220, 14%, 45%);
+	color: unset;
 }

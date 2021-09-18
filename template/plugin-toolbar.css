@@ -7,7 +7,7 @@
 
 /* The 'containers' holding the buttons (or pills) themselves */
 div.code-toolbar > .toolbar.toolbar > .toolbar-item {
-	margin-right: 0.4em; /* default: not set; there is no spacing */
+	margin-right: unset; /* default: not set; there is no spacing */
 }
 
 /* Styling the buttons (or pills) */
@@ -15,10 +15,10 @@ div.code-toolbar > .toolbar.toolbar > .toolbar-item {
 div.code-toolbar > .toolbar.toolbar > .toolbar-item > button,
 div.code-toolbar > .toolbar.toolbar > .toolbar-item > a,
 div.code-toolbar > .toolbar.toolbar > .toolbar-item > span {
-	background: hsl(220, 13%, 26%);
-	color: hsl(220, 9%, 55%);
-	padding: 0.1em 0.4em;
-	border-radius: 0.3em;
+	background: unset;
+	color: unset;
+	padding: unset;
+	border-radius: unset;
 }
 
 div.code-toolbar > .toolbar.toolbar > .toolbar-item > button:hover,
@@ -27,6 +27,6 @@ div.code-toolbar > .toolbar.toolbar > .toolbar-item > a:hover,
 div.code-toolbar > .toolbar.toolbar > .toolbar-item > a:focus,
 div.code-toolbar > .toolbar.toolbar > .toolbar-item > span:hover,
 div.code-toolbar > .toolbar.toolbar > .toolbar-item > span:focus {
-	background: hsl(220, 13%, 28%);
-	color: hsl(220, 14%, 71%);
+	background: unset;
+	color: unset;
 }

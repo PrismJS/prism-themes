@@ -6,7 +6,7 @@
 /* Style of braces on hover */
 .token.token.punctuation.brace-hover,
 .token.token.punctuation.brace-selected {
-	outline-color: hsl(220, 100%, 66%); /* default: not set; inherits from .token.punctuation */
+	outline-color: unset; /* default: not set; inherits from .token.punctuation */
 }
 
 /* Braces when rainbow braces is enabled */
@@ -14,27 +14,27 @@
 .rainbow-braces .token.token.punctuation.brace-level-1,
 .rainbow-braces .token.token.punctuation.brace-level-5,
 .rainbow-braces .token.token.punctuation.brace-level-9 {
-	color: hsl(355, 65%, 65%);
-	outline-color: inherit;
+	color: unset;
+	outline-color: unset;
 }
 
 .rainbow-braces .token.token.punctuation.brace-level-2,
 .rainbow-braces .token.token.punctuation.brace-level-6,
 .rainbow-braces .token.token.punctuation.brace-level-10 {
-	color: hsl(95, 38%, 62%);
-	outline-color: inherit;
+	color: unset;
+	outline-color: unset;
 }
 
 .rainbow-braces .token.token.punctuation.brace-level-3,
 .rainbow-braces .token.token.punctuation.brace-level-7,
 .rainbow-braces .token.token.punctuation.brace-level-11 {
-	color: hsl(207, 82%, 66%);
-	outline-color: inherit;
+	color: unset;
+	outline-color: unset;
 }
 
 .rainbow-braces .token.token.punctuation.brace-level-4,
 .rainbow-braces .token.token.punctuation.brace-level-8,
 .rainbow-braces .token.token.punctuation.brace-level-12 {
-	color: hsl(286, 60%, 67%);
-	outline-color: inherit;
+	color: unset;
+	outline-color: unset;
 }
