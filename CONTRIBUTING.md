@@ -94,7 +94,7 @@ Perhaps you want a particular token to be styled differently in a certain langua
 
 ### Code style guidelines
 
-The most important one is that Prism uses [tabs for indentation and spaces for alignment](https://lea.verou.me/2012/01/why-tabs-are-clearly-superior/). For the rest, just run `npm run lint` to check (and `npm run lint-fix` to fix)!
+We use [stylelint](https://stylelint.io/) to automatically check code style. Just run `npm run lint` to check (and `npm run lint-fix` to fix)!
 
 ### Theme guidelines and requirements
 
