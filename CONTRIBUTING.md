@@ -26,7 +26,7 @@ If you run into an error or a bug while using a theme from this repository:
 
 ### Security issues
 
-In particular, if you discover a security issue, please **do not** file a public issue, and instead, send a report privately to **insert email here**, and we will correspond with you from there.
+In the case of security issues, please check our [Security Policy](SECURITY.md) for details instead.
 
 ## Discussing the project
 
