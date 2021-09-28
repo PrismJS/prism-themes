@@ -10,5 +10,8 @@
 		"number-leading-zero": null,
 		"selector-list-comma-newline-after": null,
 		"selector-pseudo-element-colon-notation": "single"
-	}
+	},
+	"ignoreFiles": [
+		"**/*.min.css"
+	]
 }
