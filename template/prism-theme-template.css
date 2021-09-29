@@ -19,6 +19,8 @@
  * All properties with the value `unset` are for you to change.
  * You should fill in all `color` and `background` properties.
  * If you don't need an `unset` property (e.g. `border-radius`), then feel free to remove it.
+ * You are also free to add more properties that aren't stated, such as `text-shadow`.
+ * If you wish to style the plugins, you may grab their selectors from their respective .css files in the template folder.
  *
  * Your finished theme should have all `unset` properties either filled in or removed.
  */
@@ -80,7 +82,7 @@ pre[class*="language-"] {
 	white-space: normal; /* this is standard */
 }
 
-/* These are the minimum tokens you must style, though do feel free to rearrange them as you need */
+/* These are the minimum tokens you must style, you can rearrange them and/or style more tokens as you want */
 .token.comment {
 	color: unset;
 }
@@ -215,7 +217,7 @@ pre[class*="language-"] {
 }
 
 /* LANGUAGE-SPECIFIC OVERRIDES */
-/* If you'd like your theme to have overrides for specific languages, here's an example */
+/* If you'd like your theme to have overrides for specific languages, here's an example, you can remove it and/or add more overrides */
 .language-css .token.important {
 	color: unset;
 }
