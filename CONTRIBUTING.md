@@ -21,7 +21,7 @@ If you run into an error or a bug while using a theme from this repository:
 3.  [Open a new issue](https://github.com/PrismJS/prism-themes/issues/new/choose) with a clear and concise title, and include any relevant information such as:
     -   The name of the theme you're having an issue with
     -   Any plugins that you're using, if applicable
-    -   Screenshots and/or a reproducible sample
+    -   Screenshots and/or a reproducible example
     -   Browser information
 
 ### Security issues
