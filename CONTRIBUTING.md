@@ -26,7 +26,7 @@ If you run into an error or a bug while using a theme from this repository:
 
 ### Security issues
 
-In the case of security issues, please check our [Security Policy](SECURITY.md) for details instead.
+In the case of security issues, please check our [Security Policy](https://github.com/PrismJS/prism-themes/security/policy) for details instead.
 
 ## Discussing the project
 
@@ -43,7 +43,7 @@ Whether it's documentation or code, Prism Themes welcomes Pull Requests! (If you
 3.  Commit the changes, and include clear and concise commit messages when doing so.
 
 4.  Once you're done making the changes, [submit a Pull Request](https://github.com/PrismJS/prism-themes/compare)!
-    -   If your Pull Request resolves an open issue (or more), please include `closes #issuenumber` (for each issue) in the description.
+    -   If your Pull Request resolves an open issue (or more), please include [`closes #issuenumber`](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword) (for each issue) in the description.
 
 5.  A maintainer will look through your changes and review them accordingly, providing further instructions where necessary.
 
