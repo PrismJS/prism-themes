@@ -11,6 +11,18 @@
  * the transition will be a little easier!
  */
 
+/**
+ * How to use this template:
+ *
+ * This file contains all the boilerplate necessary for a Prism theme along with template rules for you to fill in.
+ *
+ * All properties with the value `unset` are for you to change.
+ * You should fill in all `color` and `background` properties.
+ * If you don't need an `unset` property (e.g. `border-radius`), then feel free to remove it.
+ *
+ * Your finished theme should have all `unset` properties either filled in or removed.
+ */
+
 /* Set the main properties of the code, code blocks, and inline code */
 code[class*="language-"],
 pre[class*="language-"] {
