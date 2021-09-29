@@ -1,0 +1,14 @@
+/**
+ * Command Line plugin overrides
+ * https://prismjs.com/plugins/command-line
+ */
+
+/* Line separating gutter from coding area */
+.command-line .command-line-prompt {
+	border-right-color: unset;
+}
+
+/* User details or whatever in the gutter */
+.command-line .command-line-prompt > span:before {
+	color: unset;
+}

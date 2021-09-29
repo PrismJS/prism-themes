@@ -1,0 +1,9 @@
+/**
+ * Autolinker plugin overrides
+ * https://prismjs.com/plugins/autolinker
+ */
+
+/* Link in the code */
+.token.token a {
+	color: unset; /* default: inherit */
+}

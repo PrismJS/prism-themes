@@ -1,0 +1,12 @@
+/**
+ * Show Invisibles plugin overrides
+ * https://prismjs.com/plugins/show-invisibles
+ */
+
+/* Styling the look of the tokens */
+.token.token.tab:not(:empty):before,
+.token.token.cr:before,
+.token.token.lf:before,
+.token.token.space:before {
+	color: unset;
+}

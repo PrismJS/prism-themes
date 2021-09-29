@@ -23,24 +23,9 @@ To use one of the themes, just include the theme's CSS file in your page. Exampl
 </html>
 ```
 
-## Adding new themes
+## Contributing new themes
 
-To add your own theme/s, copy it/them into the `themes` directory and add your theme/s to the list of available themes in this readme.
-The filenames for your themes have to be `themes/prism-<your-theme>.css` for the theme itself and `screenshots/prism-<your-theme>.png` for the screenshot.
-
-The screenshot will be created for you by running the following command:
-
-```bash
-npm i && npx gulp screenshot
-```
-
-Before making a pull request, you can run the following command to verify that all checks pass:
-
-```bash
-npm test
-```
-
-Thank you so much for contributing!!
+Please see our [Contributing guide](CONTRIBUTING.md) for details. Thank you for contributing!!
 
 ## Available themes
 

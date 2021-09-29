@@ -1,0 +1,15 @@
+/**
+ * Line Numbers plugin overrides
+ * https://prismjs.com/plugins/line-numbers
+ * This is the second-most popular plugin
+ */
+
+/* Line separating gutter from coding area */
+.line-numbers.line-numbers .line-numbers-rows {
+	border-right-color: unset;
+}
+
+/* Line numbers */
+.line-numbers .line-numbers-rows > span:before {
+	color: unset;
+}

@@ -1,0 +1,32 @@
+/**
+ * Toolbar plugin overrides
+ * https://prismjs.com/plugins/toolbar
+ * This is the third-most popular plugin
+ * Used in conjunction with Show Language, Copy to Clipboard Button, and/or Download Button
+ */
+
+/* The 'containers' holding the buttons (or pills) themselves */
+div.code-toolbar > .toolbar.toolbar > .toolbar-item {
+	margin-right: unset; /* default: not set; there is no spacing */
+}
+
+/* Styling the buttons (or pills) */
+/* Feel free to style them separately if that's what you prefer */
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > button,
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > a,
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > span {
+	background: unset;
+	color: unset;
+	padding: unset;
+	border-radius: unset;
+}
+
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > button:hover,
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > button:focus,
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > a:hover,
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > a:focus,
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > span:hover,
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > span:focus {
+	background: unset;
+	color: unset;
+}

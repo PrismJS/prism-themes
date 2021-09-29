@@ -1,0 +1,25 @@
+/**
+ * Treeview plugin overrides
+ * https://prismjs.com/plugins/treeview
+ */
+
+/* The lines */
+/* Default for all: #ccc */
+.token.token.treeview-part .line-h:before,
+.token.token.treeview-part .line-v:before {
+	border-left-color: unset;
+}
+
+.token.token.treeview-part .line-v-last:before {
+	border-left-color: unset;
+	border-bottom-color: unset;
+}
+
+.token.token.treeview-part .line-h:after {
+	border-bottom-color: unset;
+}
+
+/* dotfile filenames such as '.gitignore' */
+.token.token.treeview-part .entry-name-dotfile {
+	opacity: unset; /* default: 0.5 */
+}

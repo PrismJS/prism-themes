@@ -1,0 +1,26 @@
+/**
+ * Line Highlight plugin overrides
+ * https://prismjs.com/plugins/line-highlight
+ * This is the most popular plugin
+ */
+
+/* The highlighted line itself */
+.line-highlight.line-highlight {
+	background: unset;
+}
+
+/* Default line numbers in Line Highlight plugin */
+.line-highlight.line-highlight:before,
+.line-highlight.line-highlight[data-end]:after {
+	background: unset;
+	color: unset;
+	padding: unset;
+	border-radius: unset;
+	box-shadow: unset;
+}
+
+/* Hovering over a linkable line number (in the gutter area) */
+/* Requires Line Numbers plugin as well */
+pre[id].linkable-line-numbers.linkable-line-numbers span.line-numbers-rows > span:hover:before {
+	background-color: unset;
+}

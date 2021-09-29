@@ -1,0 +1,40 @@
+/**
+ * Match Braces plugin overrides
+ * https://prismjs.com/plugins/match-braces
+ */
+
+/* Style of braces on hover */
+.token.token.punctuation.brace-hover,
+.token.token.punctuation.brace-selected {
+	outline-color: unset; /* default: not set; inherits from .token.punctuation */
+}
+
+/* Braces when rainbow braces is enabled */
+/* Feel free to re-organise the levels */
+.rainbow-braces .token.token.punctuation.brace-level-1,
+.rainbow-braces .token.token.punctuation.brace-level-5,
+.rainbow-braces .token.token.punctuation.brace-level-9 {
+	color: unset;
+	outline-color: unset;
+}
+
+.rainbow-braces .token.token.punctuation.brace-level-2,
+.rainbow-braces .token.token.punctuation.brace-level-6,
+.rainbow-braces .token.token.punctuation.brace-level-10 {
+	color: unset;
+	outline-color: unset;
+}
+
+.rainbow-braces .token.token.punctuation.brace-level-3,
+.rainbow-braces .token.token.punctuation.brace-level-7,
+.rainbow-braces .token.token.punctuation.brace-level-11 {
+	color: unset;
+	outline-color: unset;
+}
+
+.rainbow-braces .token.token.punctuation.brace-level-4,
+.rainbow-braces .token.token.punctuation.brace-level-8,
+.rainbow-braces .token.token.punctuation.brace-level-12 {
+	color: unset;
+	outline-color: unset;
+}
