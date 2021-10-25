@@ -82,7 +82,10 @@ pre[class*="language-"] {
 	white-space: normal; /* this is standard */
 }
 
-/* These are the minimum tokens you must style, you can rearrange them and/or style more tokens as you want */
+/**
+ * These are the minimum tokens you must style, you can rearrange them and/or style more tokens as you want
+ * The concepts behind these standard tokens, as well as some examples, can be found here: https://prismjs.com/tokens.html
+ */
 .token.comment {
 	color: unset;
 }

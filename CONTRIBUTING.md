@@ -65,11 +65,13 @@ To style a token, you can use a selector like:
 }
 ```
 
-While we have some [resources](#resources) for discovering tokens available in each language, we unfortunately do not currently have documentation for what sort of code each token targets/captures in general. But if you think you can help with that, we would really appreciate your assistance with some [documentation over at the main repository](https://github.com/PrismJS/prism/issues?q=is%3Aopen+is%3Aissue+label%3Adocs)!
+Here is a list of [Prism's standard tokens](https://prismjs.com/tokens.html), including the general concept behind them and some examples. All of these standard tokens are included in the [theme template](template/prism-theme-template.css).
 
 ##### Is there a comprehensive list of tokens to style?
 
-We're glad you asked! Prism has quite a few tokens, but until we can get the token docs sorted out, we do not have such a list. However, covering the most common tokens should be enough for most cases, and the names of these tokens are documented in the [theme template](template/prism-theme-template.css).
+We're glad you asked! While we have some [resources](#resources) for discovering tokens available in each language, we unfortunately do not currently have a list containing the name of every single token. However, covering the [standard tokens](https://prismjs.com/tokens.html) should be enough for most cases.
+
+If you'd like to help document more tokens, we would really appreciate your assistance [over at the main repository](https://github.com/PrismJS/prism/issues?q=is%3Aopen+is%3Aissue+label%3Adocs)!
 
 #### Tokens for a specific language
 
@@ -203,6 +205,7 @@ Here are some resources that you may find helpful when designing and developing 
 -   [prismjs.com: Examples](https://prismjs.com/examples.html) — use together with your browser's DevTools to see a sample of tokens in each language in action
 -   [prismjs.com: Test drive](https://prismjs.com/test.html) — enter your own code samples and see how they get grouped and highlighted (as well as what tokens they map to, with the help of your browser's DevTools)
 -   [prismjs.com: FAQ: How do I know which tokens I can style for every language?](https://prismjs.com/faq.html#how-do-i-know-which-tokens-i-can-style-for) — a reference of the tokens available per language
+-   [prismjs.com: Prism tokens](https://prismjs.com/tokens.html) — a list of the standard tokens and the general concept behind each of them, including examples
 -   [prismjs.com: Plugins](https://prismjs.com/index.html#plugins) — Prism's plugins, in the event you'd like to override their default styles!
 -   [css-tricks.com: Specifics on CSS Specificity](https://css-tricks.com/specifics-on-css-specificity/) — a great guide to CSS specificity
 
