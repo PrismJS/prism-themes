@@ -12,7 +12,7 @@ code[class*="language-"],
 pre[class*="language-"] {
 	color: #fff;
 	text-shadow: 0 1px 1px #000;
-	font-family: JetNBrains, Menlo, Monaco, "Courier New", monospace;
+	font-family: JetBrains, Menlo, Monaco, "Courier New", monospace;
 	direction: ltr;
 	text-align: left;
 	word-spacing: normal;

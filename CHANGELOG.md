@@ -1,5 +1,10 @@
 # Prism Themes Changelog
 
+## 1.9.1 (????-??-??)
+
+### New Themes
+
+* Tokyo Night Dark([#148](https://github.com/PrismJS/prism-themes/pull/148))
 
 ## 1.9.0 (2021-09-16)
 
