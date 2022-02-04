@@ -1,18 +1,22 @@
 /*
- * Based on Plugin: TokyoNight VSCode
- * Reference: https://github.com/enkia/tokyo-night-vscode-theme
- * Plugin URI: http://wp.tutsplus.com/tutorials/plugins/adding-a-syntax-highlighter-shortcode-using-prism-js
- * Description: Highlight your code snippets with an easy to use shortcode based on Tokyonight
- * Version: 1.0.0
- * Author: c.bavot
- * Author URI: http://bavotasan.comhttp://wp.tutsplus.com/tutorials/plugins/adding-a-syntax-highlighter-shortcode-using-prism-js/ */
+  * Based on Plugin: Tokyo Night Dark VSCode theme
+  * Reference: https://github.com/enkia/tokyo-night-vscode-theme
+  * Plugin URI: http://wp.tutsplus.com/tutorials/plugins/adding-a-syntax-highlighter-shortcode-using-prism-js
+  * Description: Highlight your code snippets with an easy to use shortcode based on Tokyonight
+  * Version: 1.0.0
+  * Author: Enkia
+  * Author URI: https://github.com/enkia
+  * adapter: Vanderscycle
+  * Adapter URI:  https://github.com/Vanderscycle
+  */
 
 /* =====   ===== */
+@import url(https://fonts.google.com/specimen/JetBrains+Mono?query=jet#standard-styles);
 code[class*="language-"],
 pre[class*="language-"] {
 	color: #fff;
 	text-shadow: 0 1px 1px #000;
-	font-family: JetBrains, Menlo, Monaco, "Courier New", monospace;
+	font-family: 'JetBrains Mono', Menlo, Monaco, "Courier New", monospace;
 	direction: ltr;
 	text-align: left;
 	word-spacing: normal;
