@@ -137,4 +137,5 @@ Please see our [Contributing guide](CONTRIBUTING.md) for details. Thank you for 
 * [__One Light__](themes/prism-one-light.css) (by [Hoon Wei Ting](https://github.com/hoonweiting), based on [Atom's One Light Syntax](https://github.com/atom/atom/tree/master/packages/one-light-syntax))<br />
 [![One Light](screenshots/prism-one-light.png)](themes/prism-one-light.css)
 
-* [![Tokyo Night Dark](screenshots/prism-tokyo-night-dark.png)](themes/prism-tokyo-night-dark.css)
+* [__Tokyo Night Dark__](themes/prism-tokyo-night-dark.css) (by [Henri Vandersleyen](https://github.com/vanderscycle), based on [Enkia's Tokyio Night Theme](https://github.com/enkia/tokyo-night-vscode-theme))<br />
+[![Tokyo Night Dark](screenshots/prism-tokyo-night-dark.png)](themes/prism-tokyo-night-dark.css)
