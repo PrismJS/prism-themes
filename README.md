@@ -136,3 +136,6 @@ Please see our [Contributing guide](CONTRIBUTING.md) for details. Thank you for 
 
 * [__One Light__](themes/prism-one-light.css) (by [Hoon Wei Ting](https://github.com/hoonweiting), based on [Atom's One Light Syntax](https://github.com/atom/atom/tree/master/packages/one-light-syntax))<br />
 [![One Light](screenshots/prism-one-light.png)](themes/prism-one-light.css)
+
+* [__Laserwave__](themes/prism-laserwave.css) (originally by [Jared Jones](https://github.com/Jaredk3nt), adapted by [Simon Jespersen](https://github.com/simjes))<br />
+[![Laserwave](screenshots/prism-laserwave.png)](themes/prism-laserwave.css)
