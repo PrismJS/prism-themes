@@ -9,7 +9,7 @@ code[class*="language-"],
 pre[class*="language-"] {
 	background: #27212e;
 	color: #ffffff;
-	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; /* this is the default */
+	font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace; /* this is the default */
 	/* The following properties are standard, please leave them as they are */
 	font-size: 1em;
 	direction: ltr;
@@ -65,23 +65,11 @@ pre[class*="language-"] {
 	color: #91889b;
 }
 
-.token.doctype {
-	color: #74dfc4;
-}
-
 .token.punctuation {
 	color: #7b6995;
 }
 
-.token.attr-name {
-	color: #EB64B9;
-}
-
-.token.entity,
-.token.class-name {
-	color: #ffffff;
-}
-
+.token.builtin,
 .token.constant,
 .token.boolean {
 	color: #ffe261;
@@ -91,75 +79,39 @@ pre[class*="language-"] {
 	color: #b381c5;
 }
 
-.token.atrule {
-	color: #40b4c4;
-}
-
+.token.important,
+.token.atrule,
+.token.property,
 .token.keyword {
 	color: #40b4c4;
 }
 
-.token.property {
-	color: #40b4c4;
-}
-
-.token.tag {
-	color: #74dfc4;
-}
-
+.token.doctype,
+.token.operator,
+.token.inserted,
+.token.tag,
+.token.class-name,
 .token.symbol {
 	color: #74dfc4;
 }
 
-.token.deleted {
+.token.attr-name,
+.token.function,
+.token.deleted,
+.token.selector {
 	color: #eb64b9;
 }
 
-.token.important {
-	color: #40b4c4;
-}
-
-.token.selector {
-	color: #EB64B9;
-}
-
+.token.attr-value,
+.token.regex,
+.token.char,
 .token.string {
 	color: #b4dce7;
 }
 
-.token.char {
-	color: #b4dce7;
-}
-
-.token.builtin {
-	color: #ffe261;
-}
-
-.token.inserted {
-	color: #74dfc4;
-}
-
-.token.regex {
-	color: #b4dce7;
-}
-
-.token.attr-value {
-	color: #40b4c4;
-}
-
+.token.entity,
+.token.url,
 .token.variable {
-	color: #ffffff;
-}
-
-.token.operator {
-	color: #74dfc4;
-}
-
-.token.function {
-	color: #EB64B9;
-}
-
-.token.url {
 	color: #ffffff;
 }
 
