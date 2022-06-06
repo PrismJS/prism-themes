@@ -20,9 +20,9 @@ pre[class*="language-"] {
 	-moz-hyphens: none;
 	-ms-hyphens: none;
 	hyphens: none;
-	line-height: 25px;
-	font-size: 18px;
-	margin: 5px 0;
+	line-height: 1.4;
+	font-size: 1em;
+	margin: .3em 0;
 }
 
 pre[class*="language-"] * {
@@ -33,7 +33,7 @@ pre[class*="language-"] * {
 pre[class*="language-"] {
 	color: white;
 	background: #0a143c;
-	padding: 22px;
+	padding: 1.2em;
 }
 
 /* Code blocks */

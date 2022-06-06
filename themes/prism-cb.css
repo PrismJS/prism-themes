@@ -13,6 +13,7 @@ pre[class*="language-"] {
 	color: #fff;
 	text-shadow: 0 1px 1px #000;
 	font-family: Menlo, Monaco, "Courier New", monospace;
+	font-size: 1em;
 	direction: ltr;
 	text-align: left;
 	word-spacing: normal;
@@ -34,7 +35,7 @@ pre[class*="language-"] {
 
 pre[class*="language-"] code {
 	float: left;
-	padding: 0 15px 0 0;
+	padding: 0 1em 0 0;
 }
 
 pre[class*="language-"],
@@ -44,21 +45,21 @@ pre[class*="language-"],
 
 /* Code blocks */
 pre[class*="language-"] {
-	padding: 15px;
+	padding: 1em;
 	margin: 1em 0;
 	overflow: auto;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
-	border-radius: 8px;
+	-moz-border-radius: .5em;
+	-webkit-border-radius: .5em;
+	border-radius: .5em;
 }
 
 /* Inline code */
 :not(pre) > code[class*="language-"] {
-	padding: 5px 10px;
+	padding: .3em .6em;
 	line-height: 1;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-	border-radius: 3px;
+	-moz-border-radius: .2em;
+	-webkit-border-radius: .2em;
+	border-radius: .2em;
 }
 
 .token.comment,
@@ -134,9 +135,9 @@ pre[class*="language-"] {
 	top: .3em;
 	background-color: rgba(255, 255, 255, .3);
 	color: #fff;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
-	border-radius: 8px;
+	-moz-border-radius: .5em;
+	-webkit-border-radius: .5em;
+	border-radius: .5em;
 }
 
 /* for line numbers */
