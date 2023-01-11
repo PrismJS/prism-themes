@@ -140,7 +140,7 @@ pre[class*="language-"] {
 }
 
 /* PHP overrides */
-.language-php .token.variable {
+.language-php .token.variable, .token.global {
 	color: hsl(5, 74%, 59%);
 }
 
