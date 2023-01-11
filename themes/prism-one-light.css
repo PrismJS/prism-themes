@@ -86,6 +86,7 @@ pre[class*="language-"] {
 
 .token.doctype,
 .token.punctuation,
+.token.operator,
 .token.entity {
 	color: hsl(230, 8%, 24%);
 }
@@ -136,6 +137,15 @@ pre[class*="language-"] {
 .token.attr-value > .token.punctuation.attr-equals,
 .token.special-attr > .token.attr-value > .token.value.css {
 	color: hsl(230, 8%, 24%);
+}
+
+/* PHP overrides */
+.language-php .token.variable {
+	color: hsl(5, 74%, 59%);
+}
+
+.language-php .token.scope {
+	color: hsl(35, 99%, 36%);
 }
 
 /* CSS overrides */
