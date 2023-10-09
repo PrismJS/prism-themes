@@ -1,0 +1,177 @@
+/**
+ * Python Sphinx RTD theme for PrismJs.
+ *
+ * The original sphinx-rtd-theme (https://github.com/readthedocs/sphinx_rtd_theme).
+ *
+ * Adapted from PrismJS prism-themes (https://github.com/PrismJS/prism-themes),
+ * specifically prism-gruvbox-light.css theme.
+ *
+ * @author Artur Barseghyan (https://github.com/barseghyanartur)
+ * @version 1.0
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #3c3836;
+	font-family: Consolas, Monaco, "Andale Mono", monospace;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	line-height: 1.5;
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+pre[class*="language-"]::-moz-selection,
+pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection,
+code[class*="language-"] ::-moz-selection {
+	color: #282828;
+	background: #a89984;
+}
+
+pre[class*="language-"]::selection,
+pre[class*="language-"] ::selection,
+code[class*="language-"]::selection,
+code[class*="language-"] ::selection {
+	color: #282828;
+	background: #a89984;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: 0.5em 0;
+	overflow: auto;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #eeffcc;
+	border: none !important;
+    box-shadow: none !important;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: 0.1em;
+	border-radius: 0.3em;
+}
+
+.token.comment {
+	font-style: italic;
+}
+
+.token.comment,
+.token.prolog,
+.token.cdata {
+	color: #7c6f64;
+}
+
+.token.keyword {
+	color: #007020;
+	font-weight: bold;
+}
+
+.token.delimiter,
+.token.boolean,
+.token.selector,
+.token.important,
+.token.atrule {
+	color: #9d0006;
+}
+
+.token.operator,
+.token.punctuation,
+.token.attr-name {
+	color: #7c6f64;
+	background-color: #eeffcc;
+}
+
+.token.tag,
+.token.tag .punctuation,
+.token.doctype,
+.token.builtin {
+	color: #b57614;
+}
+
+.token.entity,
+.token.number,
+.token.symbol {
+	color: #8f3f71;
+}
+
+.token.property,
+.token.constant,
+.token.variable {
+	color: #9d0006;
+}
+
+.token.string {
+	color: #4070a0;
+}
+
+.token.char {
+	color: #797403;
+}
+
+.token.attr-value,
+.token.attr-value .punctuation {
+	color: #7c6f64;
+}
+
+.token.url {
+	color: #797403;
+	text-decoration: underline;
+}
+
+.token.function {
+	color: #b57614;
+}
+
+.token.regex {
+	background: #797403;
+}
+
+.token.bold {
+	font-weight: bold;
+}
+
+.token.italic {
+	font-style: italic;
+}
+
+.token.inserted {
+	background: #7c6f64;
+}
+
+.token.deleted {
+	background: #9d0006;
+}
+
+/* Additional overrides */
+.rst-content code,
+.rst-content tt,
+code {
+  border: none;
+}
+
+pre[class*="language-"] {
+	border: 1px solid #e1e4e5!important;
+}
+code[class*="language-"],
+pre[class*="language-"] {
+    font-size: 12px;
+}
+
+pre[class*="language-"] > code:first-child {
+    margin: 0!important;
+    padding: 0!important;
+}

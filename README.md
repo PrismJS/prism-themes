@@ -139,3 +139,6 @@ Please see our [Contributing guide](CONTRIBUTING.md) for details. Thank you for 
 
 * [__Laserwave__](themes/prism-laserwave.css) (originally by [Jared Jones](https://github.com/Jaredk3nt), adapted by [Simon Jespersen](https://github.com/simjes))<br />
 [![Laserwave](screenshots/prism-laserwave.png)](themes/prism-laserwave.css)
+
+* [__Python_Sphinx_RTD_Theme__](themes/prism-python-sphinx-rtd.css) (by [Artur Barseghyan](https://github.com/barseghyanartur), based on [Sphinx RTD Theme](https://github.com/readthedocs/sphinx_rtd_theme))<br />
+[![Python_Sphinx_RTD_Theme](screenshots/prism-python-sphinx-rtd.png)](themes/prism-python-sphinx-rtd.css)
